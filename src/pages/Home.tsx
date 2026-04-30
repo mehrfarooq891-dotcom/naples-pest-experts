@@ -61,6 +61,11 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
               Pest Control in <span className="text-primary">Naples, FL</span> — Fast, Local & Guaranteed
             </h1>
+            <img 
+              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop" 
+              alt="Professional pest control technician Naples FL" 
+              style={{ width: '100%', height: '500px', objectFit: 'cover', borderRadius: '8px', marginBottom: '32px' }} 
+            />
             <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl">
               Don't let termites, roaches, or mosquitoes take over your Southwest Florida sanctuary. 
               Naples Pest Experts provides immediate, eco-friendly relief for homeowners and businesses across Collier County.

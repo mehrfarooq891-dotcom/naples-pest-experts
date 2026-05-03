@@ -23,7 +23,7 @@ export default function About() {
             <span className="text-white font-bold underline decoration-white/30 underline-offset-8">Pest-Free Naples</span>
           </h1>
           <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
-            For over 12 years, Naples Pest Experts has been the silent guardian of Southwest Florida properties. We aren't just exterminators; we are your neighbors, dedicated to protecting high-end estates and family homes alike.
+            Naples Pest Experts is a local pest control referral network connecting Naples homeowners with licensed, vetted pest control professionals. For over 12 years, we have been the premier referral network connecting Southwest Florida properties with the most capable local exterminators.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-4xl border-t border-white/10 pt-12">
             {[
@@ -44,12 +44,12 @@ export default function About() {
       {/* Content Section */}
       <section className="py-24 bg-white px-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
         <div className="space-y-8">
-          <h2 className="text-4xl font-medium text-text-main leading-tight">Built on Trust, Science, and Community.</h2>
+          <h2 className="text-4xl font-medium text-text-main leading-tight">Connecting You to Verified Local Talent.</h2>
           <p className="text-gray-600 leading-relaxed">
-            Naples Pest Experts started with a single truck and a commitment to radical transparency. In an industry often clouded by vague pricing and unnecessary chemicals, we stood out by offering fixed-rate guarantees and Integrated Pest Management (IPM) protocols.
+            Naples Pest Experts operates as a specialized referral network built on a commitment to radical transparency. We understand that finding a reliable pest control company can be difficult, so we handle the vetting process for you.
           </p>
           <p className="text-gray-500 leading-relaxed">
-            We understand the unique ecology of Collier County. From the swamp-adjacent neighborhoods in Golden Gate to the salt-air environments of Marco Island, we've developed customized treatment blueprints for every micro-climate in Southwest Florida.
+            We partner with professionals who understand the unique ecology of Collier County. From the swamp-adjacent neighborhoods in Golden Gate to the salt-air environments of Marco Island, we ensure you're connected with experts who have the right tools for your specific micro-climate.
           </p>
           <div className="pt-8">
              <Link to="/contact" className="inline-flex items-center gap-3 bg-primary text-white font-black py-4 px-10 rounded-2xl hover:opacity-90 transition-all text-lg shadow-xl shadow-primary/20 group">
@@ -62,12 +62,12 @@ export default function About() {
               <div className="w-full h-full rounded-[2.8rem] bg-gray-50 p-12 flex flex-col justify-center relative overflow-hidden shadow-2xl">
                  <div className="glow-primary opacity-30 top-0 right-0"></div>
                  <Shield className="w-16 h-16 text-primary/40 mb-8" />
-                 <h4 className="text-text-main text-2xl font-medium mb-6">Our Core Values</h4>
+                 <h4 className="text-text-main text-2xl font-medium mb-6">Our Vetting Standards</h4>
                  <ul className="space-y-4 text-gray-600 text-sm">
-                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Guaranteed Results or We Re-treat Free</li>
-                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Transparent Upfront Written Estimates</li>
-                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Eco-Conscious & Family-Safe Products</li>
-                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Continuous Technical Education</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Verified Active State Licenses</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Comprehensive Insurance Checks</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Verified Multi-Year Track Records</li>
+                    <li className="flex items-center gap-3"><CheckCircle className="w-4 h-4 text-primary" /> Strict Adherence to Safety Standards</li>
                  </ul>
               </div>
            </div>

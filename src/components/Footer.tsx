@@ -13,7 +13,7 @@ export default function Footer() {
             <span className="text-xl font-bold text-white tracking-tight">Naples Pest Experts</span>
           </div>
           <p className="text-gray-300 text-sm leading-relaxed mb-6">
-            Naples' trusted pest control specialists since 2011. Protecting homes and businesses across Collier County.
+            Naples Pest Experts is a local pest control referral network connecting Naples homeowners with licensed, vetted pest control professionals.
           </p>
           <div className="flex gap-4">
              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors text-white"><Facebook className="w-4 h-4" /></a>
@@ -63,10 +63,15 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-        <p className="text-[10px] text-gray-400 uppercase font-bold tracking-[0.2em]">
-          © 2026 Naples Pest Experts • All Rights Reserved • Licensed #JB193775
-        </p>
+      <div className="max-w-7xl mx-auto pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-center">
+        <div className="flex flex-col gap-2">
+          <p className="text-[10px] text-gray-400 uppercase font-bold tracking-[0.2em]">
+            © 2026 Naples Pest Experts • All Rights Reserved • Licensed #JB193775
+          </p>
+          <p className="text-[10px] text-gray-500 uppercase tracking-widest max-w-2xl mx-auto md:mx-0">
+            Naples Pest Experts is a local pest control referral network connecting Naples homeowners with licensed, vetted pest control professionals.
+          </p>
+        </div>
         <div className="flex gap-6 text-[10px] text-gray-400 font-bold uppercase">
            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
            <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

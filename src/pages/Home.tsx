@@ -133,18 +133,16 @@ export default function Home() {
       {/* About Section - Brief */}
       <section className="py-24 px-8 border-y border-gray-100 bg-surface relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-           <h2 className="text-3xl md:text-4xl font-medium text-text-main mb-8">Locally Owned. Neighborhood Focused. Professional Grade.</h2>
+           <h2 className="text-3xl md:text-4xl font-medium text-text-main mb-8">Locally Vetted. Neighborhood Focused. Professional Grade.</h2>
            <p className="text-lg text-gray-600 leading-relaxed mb-8">
-             Naples Pest Experts isn't just a business; it's a commitment to our community. For over 12 years, we've lived and worked in Southwest Florida, 
-             learning the specific habits of the insects and rodents that call Naples home. From the high-rises of Park Shore to the sprawling estates of Golden Gate, 
-             we know how to customize a treatment plan that fits your environment, your family, and your budget.
+             Naples Pest Experts is a premier local pest control referral network connecting Naples homeowners with with the city's most respected licensed and vetted pest control professionals. For over 12 years, we've carefully selected the most capable specialists in Southwest Florida to ensure your property receives elite-level protection.
            </p>
            <p className="text-gray-500 text-sm italic mb-10 max-w-2xl mx-auto">
-             Whether you're dealing with a sudden roach sighting in your kitchen or planning a long-term termite defense strategy, 
-             we provide the transparency and expertise you deserve from a local partner.
+             From the high-rises of Park Shore to the sprawling estates of Golden Gate, 
+             we help you find the perfect treatment plan that fits your environment, your family, and your budget.
            </p>
            <Link to="/about" className="inline-flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-xs border-b border-primary/30 pb-1 hover:text-primary hover:border-primary transition-all">
-             Read Our Full Story <ArrowRight className="w-4 h-4" />
+             How Our Vetting Works <ArrowRight className="w-4 h-4" />
            </Link>
         </div>
       </section>

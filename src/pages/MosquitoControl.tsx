@@ -23,18 +23,21 @@ export default function MosquitoControl() {
       <Schema data={serviceSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #0a2a1a, #1B6B3A)' }}
+      >
         <div className="glow-primary opacity-30 -top-40 -left-40 scale-150 animate-pulse"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 backdrop-blur-sm">
-             <Wind className="w-4 h-4 text-primary" />
-             <span className="text-primary font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Outdoor Living Protection</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <Wind className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Outdoor Living Protection</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Enjoy Your Yard <br/>
-            <span className="text-primary font-bold">Without the Bite</span>
+            <span className="text-white font-bold">Without the Bite</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
             Naples is a tropical paradise, but the mosquitoes don't have to be part of your evening. Our advanced misting barriers and growth regulators target mosquitoes exactly where they hide, ensuring your pool deck and lanai stay bug-free.
           </p>
           <a href="tel:+12395550174" className="bg-primary text-white font-black py-5 px-10 rounded-2xl shadow-xl flex items-center justify-center gap-3 hover:opacity-90 transition-all hover:scale-105 active:scale-95 text-xl">

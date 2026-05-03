@@ -23,18 +23,21 @@ export default function EmergencyPestControl() {
       <Schema data={serviceSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-red-50/30 px-8 overflow-hidden border-b border-red-100">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #7f1d1d, #b91c1c)' }}
+      >
         <div className="glow-red opacity-10 top-0 left-0 scale-150 animate-pulse"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 backdrop-blur-sm">
-             <Clock className="w-4 h-4 text-red-500" />
-             <span className="text-red-500 font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Priority Crisis Dispatch Active</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <Clock className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Priority Crisis Dispatch Active</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Emergency Help <br/>
-            <span className="text-red-500 font-bold underline decoration-red-500/30 underline-offset-8">Right Now</span>
+            <span className="text-white font-bold underline decoration-white/30 underline-offset-8">Right Now</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-2xl leading-relaxed">
             Found a swarm of termites? A wasp nest by the front door? Bed bugs in the guest room? Don't wait for business hours. Our rapid-response team is on call 24/7 for Naples residents.
           </p>
           <a href="tel:+12395550174" className="bg-[#DC2626] text-white font-black py-6 px-12 rounded-2xl shadow-xl flex items-center justify-center gap-4 transition-all hover:opacity-90 hover:scale-105 active:scale-95 text-xl">

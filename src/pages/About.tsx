@@ -11,18 +11,21 @@ export default function About() {
       />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #1B6B3A 0%, #0f4a28 100%)' }}
+      >
         <div className="glow-primary opacity-20 -top-40 -left-40 scale-150"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <span className="text-primary font-mono text-xs uppercase tracking-widest mb-6 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/5">Founded 2011</span>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <span className="text-white font-mono text-xs uppercase tracking-widest mb-6 px-4 py-1.5 rounded-full border border-white/20 bg-white/10">Founded 2011</span>
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Our Mission: A <br/>
-            <span className="text-primary font-bold underline decoration-primary/30 underline-offset-8">Pest-Free Naples</span>
+            <span className="text-white font-bold underline decoration-white/30 underline-offset-8">Pest-Free Naples</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
-            For over 12 years, Naples Pest Experts has been the silent guardian of Southwest Florida properties. We aren't just exterminators; we are your neighbors, dedicated to protecting wait-end estates and family homes alike.
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
+            For over 12 years, Naples Pest Experts has been the silent guardian of Southwest Florida properties. We aren't just exterminators; we are your neighbors, dedicated to protecting high-end estates and family homes alike.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-4xl border-t border-gray-100 pt-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-4xl border-t border-white/10 pt-12">
             {[
               { val: "12+", label: "Years Experience" },
               { val: "15k+", label: "Pests Neutralized" },
@@ -30,8 +33,8 @@ export default function About() {
               { val: "24/7", label: "Local Response" }
             ].map(stat => (
               <div key={stat.label} className="text-center">
-                <div className="text-3xl font-bold text-text-main mb-1">{stat.val}</div>
-                <div className="text-[10px] text-gray-400 uppercase font-bold tracking-widest">{stat.label}</div>
+                <div className="text-3xl font-bold text-white mb-1">{stat.val}</div>
+                <div className="text-[10px] text-gray-300 uppercase font-bold tracking-widest">{stat.label}</div>
               </div>
             ))}
           </div>

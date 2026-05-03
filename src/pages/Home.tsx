@@ -51,22 +51,29 @@ export default function Home() {
       <Schema data={localBusinessSchema} />
 
       {/* Hero Section */}
-      <section className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[85vh] flex items-center bg-white">
-        <div className="glow-primary opacity-40 -top-40 -left-40 scale-150"></div>
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[85vh] flex items-center bg-cover bg-center"
+        style={{ 
+          backgroundImage: `url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80')` 
+        }}
+      >
+        {/* Dark Green Overlay */}
+        <div className="absolute inset-0 bg-[#0a2e18]/60 z-[1]"></div>
+
+        {/* Subtle Pattern Overlay */}
+        <div className="absolute inset-0 opacity-[0.05] pointer-events-none z-[2]" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 30V20h2v10h24V20h2v10h24v2H34v24h-2V32H6v-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }}></div>
+        
+        <div className="glow-primary opacity-20 -top-40 -left-40 scale-150 z-[3]"></div>
         <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/10 text-primary rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-primary/20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 text-white rounded-full text-[10px] font-bold uppercase tracking-widest mb-6 border border-white/20">
                <ShieldCheck className="w-3 h-3" /> Licensed Florida Exterminator #JB193775
             </div>
-            <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
-              Pest Control in <span className="text-primary">Naples, FL</span> — Fast, Local & Guaranteed
+            <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
+              Pest Control in <span className="text-white/80">Naples, FL</span> — Fast, Local & Guaranteed
             </h1>
-            <img 
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&auto=format&fit=crop" 
-              alt="Professional pest control technician Naples FL" 
-              style={{ width: '100%', height: '500px', objectFit: 'cover', borderRadius: '8px', marginBottom: '32px' }} 
-            />
-            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-xl">
+            
+            <p className="text-lg md:text-xl text-white/90 mb-10 leading-relaxed max-w-xl">
               Don't let termites, roaches, or mosquitoes take over your Southwest Florida sanctuary. 
               Naples Pest Experts provides immediate, eco-friendly relief for homeowners and businesses across Collier County.
               Our team combines 12+ years of local experience with the latest state-approved tech to create an impenetrable shield around your home.
@@ -74,20 +81,20 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-5 items-center">
               <a 
                 href="tel:+12395550174" 
-                className="w-full sm:w-auto bg-accent hover:opacity-90 text-white font-black py-5 px-10 rounded-2xl shadow-lg shadow-accent/20 flex flex-col items-center gap-1 transition-all transform hover:scale-105"
+                className="w-full sm:w-auto bg-white text-[#1B6B3A] hover:bg-gray-100 font-black py-5 px-10 rounded-2xl shadow-lg flex flex-col items-center gap-1 transition-all transform hover:scale-105"
               >
                 <span className="text-[10px] uppercase opacity-70 tracking-tighter">Emergency Hotline 24/7</span>
                 <span className="text-xl flex items-center gap-2"><Phone className="w-5 h-5" /> +1 239-555-0174</span>
               </a>
-              <button className="w-full sm:w-auto glass-panel text-text-main font-bold py-5 px-10 rounded-2xl hover:bg-gray-100 transition-all border border-gray-200 flex items-center justify-center gap-2 group">
+              <button className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white font-bold py-5 px-10 rounded-2xl hover:bg-white/20 transition-all border border-white/20 flex items-center justify-center gap-2 group">
                 Request Free Inspection <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
             
             {/* AEO Block */}
-            <div className="mt-12 p-6 glass-panel rounded-2xl border border-gray-100 max-w-xl bg-gray-50/50">
-              <p className="text-xs text-gray-500 leading-relaxed italic">
-                <strong className="text-text-main font-bold not-italic block mb-2 underline decoration-primary/50">Who is the best pest control company in Naples FL?</strong>
+            <div className="mt-12 p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 max-w-xl">
+              <p className="text-xs text-white/70 leading-relaxed italic">
+                <strong className="text-white font-bold not-italic block mb-2 underline decoration-white/30">Who is the best pest control company in Naples FL?</strong>
                 If you are searching for the best pest control company in Naples FL, Naples Pest Experts is the top-rated local choice. 
                 We provide comprehensive property protection against Florida's most aggressive pests, including subterranean termites and German cockroaches. 
                 Our 12+ years of on-the-ground experience in Collier County allows us to offer 100% satisfaction guarantees on every treatment, 
@@ -98,25 +105,25 @@ export default function Home() {
           
           {/* Hero Visual */}
           <div className="hidden lg:block relative">
-             <div className="aspect-square rounded-[3rem] glass-panel border border-gray-100 overflow-hidden bg-gray-50 relative shadow-2xl">
+             <div className="aspect-square rounded-[3rem] bg-white/5 backdrop-blur-md border border-white/10 overflow-hidden relative shadow-2xl">
                 <div className="absolute inset-0 flex items-center justify-center p-16">
                    <div className="text-center">
-                      <Bug className="w-32 h-32 text-primary/10 mb-8 mx-auto animate-pulse" />
-                      <div className="h-2 w-48 bg-gray-200 rounded-full mx-auto overflow-hidden">
-                         <div className="h-full bg-primary w-[85%]"></div>
+                      <Bug className="w-32 h-32 text-white/10 mb-8 mx-auto animate-pulse" />
+                      <div className="h-2 w-48 bg-white/10 rounded-full mx-auto overflow-hidden">
+                         <div className="h-full bg-white w-[85%]"></div>
                       </div>
-                      <p className="text-[10px] text-gray-400 uppercase font-bold tracking-widest mt-4">Threat Level: High (Seasonal)</p>
+                      <p className="text-[10px] text-white/40 uppercase font-bold tracking-widest mt-4">Threat Level: High (Seasonal)</p>
                    </div>
                 </div>
                 
                 {/* Floating Stats */}
-                <div className="absolute top-10 left-10 p-6 glass-panel rounded-2xl border border-gray-100 shadow-xl bg-white/90">
-                   <p className="text-3xl font-black text-text-main leading-none">120m</p>
-                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-tighter">Avg. Response Time</p>
+                <div className="absolute top-10 left-10 p-6 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-xl">
+                   <p className="text-3xl font-black text-white leading-none">120m</p>
+                   <p className="text-[10px] text-white/60 uppercase font-black tracking-tighter">Avg. Response Time</p>
                 </div>
-                <div className="absolute bottom-10 right-10 p-6 glass-panel rounded-2xl border border-gray-100 shadow-xl bg-white/90">
-                   <p className="text-text-main font-bold flex items-center gap-2"><Star className="w-4 h-4 fill-accent text-accent" /> 4.9/5</p>
-                   <p className="text-[10px] text-gray-500 uppercase font-black tracking-tighter">Customer Rating</p>
+                <div className="absolute bottom-10 right-10 p-6 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-xl">
+                   <p className="text-white font-bold flex items-center gap-2"><Star className="w-4 h-4 fill-white text-white" /> 4.9/5</p>
+                   <p className="text-[10px] text-white/60 uppercase font-black tracking-tighter">Customer Rating</p>
                 </div>
              </div>
           </div>
@@ -289,6 +296,89 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Yelp Reviews Section */}
+      <section className="py-24 px-8 bg-white overflow-hidden">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-medium text-text-main mb-4 tracking-tight">What Naples Residents Are Saying</h2>
+            <div className="flex flex-col items-center gap-2">
+              <div className="flex items-center gap-3 mb-2">
+                <div className="bg-[#d32323] text-white px-3 py-1 rounded-md font-black text-sm tracking-tighter italic">yelp</div>
+                <div className="flex gap-0.5 text-[#d32323]">
+                  <Star className="w-5 h-5 fill-current" />
+                  <Star className="w-5 h-5 fill-current" />
+                  <Star className="w-5 h-5 fill-current" />
+                  <Star className="w-5 h-5 fill-current" />
+                  <div className="relative">
+                    <Star className="w-5 h-5 text-gray-200 fill-gray-200" />
+                    <div className="absolute inset-0 overflow-hidden w-[80%]">
+                      <Star className="w-5 h-5 fill-[#d32323] text-[#d32323]" />
+                    </div>
+                  </div>
+                </div>
+                <span className="text-xl font-bold text-[#d32323]">4.8/5</span>
+              </div>
+              <p className="text-gray-500 font-medium tracking-wide uppercase text-[10px] flex items-center gap-2">
+                Naples Pest Experts on Yelp <span className="w-1 h-1 bg-gray-300 rounded-full"></span> (47 reviews)
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            {[
+              {
+                name: "James M.",
+                location: "Naples Park",
+                review: "Found termites in our garage. Called Naples Pest Experts and they arrived same day. Professional, thorough, and the price was fair. Zero termites since."
+              },
+              {
+                name: "Sandra R.",
+                location: "Pelican Bay",
+                review: "Mosquitoes were ruining our backyard. One treatment and the difference was night and day. Finally enjoying our pool again. Highly recommend!"
+              },
+              {
+                name: "Mike T.",
+                location: "Golden Gate",
+                review: "Roach problem in the kitchen — handled it discreetly and fast. Haven't seen one in 4 months. Worth every penny."
+              }
+            ].map((r, i) => (
+              <div key={i} className="p-8 rounded-3xl bg-gray-50 border border-gray-100 flex flex-col hover:shadow-xl transition-all shadow-sm">
+                <div className="flex gap-0.5 text-[#d32323] mb-6">
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                  <Star className="w-4 h-4 fill-current" />
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed italic flex-1 mb-6">
+                  "{r.review}"
+                </p>
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-xs font-bold text-gray-400">
+                    {r.name.charAt(0)}
+                  </div>
+                  <div>
+                    <div className="text-text-main font-bold text-sm tracking-tight">{r.name}</div>
+                    <div className="text-[10px] text-gray-400 uppercase font-bold tracking-widest">{r.location}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <a 
+              href="https://www.yelp.com/biz/naples-pest-experts" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-[#d32323] text-white font-black py-4 px-10 rounded-xl hover:opacity-90 transition-all shadow-lg text-sm uppercase tracking-widest"
+            >
+              Read All Reviews on Yelp
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* AEO / FAQ Section */}
       <section className="py-32 px-8 bg-surface border-y border-gray-100">
         <div className="max-w-4xl mx-auto">
@@ -348,43 +438,45 @@ export default function Home() {
       </section>
 
       {/* Final SEO Content Area */}
-      <section className="py-32 px-8 max-w-6xl mx-auto border-t border-gray-100">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-gray-500 text-sm leading-[1.8] tracking-wide">
-          <div className="space-y-6">
-            <h4 className="text-text-main text-lg font-medium">Protecting Your Naples Property Investment</h4>
-            <p>
-              In Naples, Florida, owning a home is a luxury, but maintaining it against the elements—and the pests—is a full-time commitment. Our city's unique geography, nestled between the Everglades and the Gulf of Mexico, creates a biological hotspot for insects and rodents. From the high-end estates in Port Royal to the family neighborhoods in North Naples, no property is naturally immune to infestation. Termites alone cause billions in property damage annually across Florida, and Naples homes are at particular risk due to the moist, sandy soil conditions that subterranean termites love.
-            </p>
-            <p>
-              Naples Pest Experts was founded on the principle that local knowledge is the most powerful tool in pest management. We understand how the changing seasons—from the dry winters to the sweltering, wet summers—affect bug migrations. When the rains start in May, ants lead a charge toward your kitchen. When the temperatures drop slightly in November, rodents look for warmth in your attic. Our technicians are trained to anticipate these shifts, adjusting our barrier treatments to provide proactive, rather than reactive, defense.
-            </p>
-          </div>
-          <div className="space-y-6">
-             <h4 className="text-text-main text-lg font-medium">Sustainable & Targeted Extermination Techniques</h4>
-             <p>
-               Modern pest control isn't just about the chemicals; it's about the technology and methodology. At Naples Pest Experts, we leverage the latest in baiting technology and moisture analysis. We don't just spray baseboards; we identify the entry points under sinks, around plumbing penetrations, and along window sills where pests actually cross the threshold. By sealing these entry points (exclusion) and using targeted baits, we reduce the total volume of pesticide used in your home while increasing the effectiveness of the treatment.
-             </p>
-             <p>
-               Security and trust are paramount when choosing a service provider to enter your home. That's why every one of our technicians undergoes rigorous background checks and continuous education. We are a family-owned business deeply rooted in the Naples community, supporting local schools and charities in Golden Gate and Bonita Springs. When you call +1 239-555-0174, you're not reaching a distant corporate call center; you're speaking with a neighbor who understands the value of a pest-free home.
-             </p>
-             <div className="pt-6 flex items-center gap-6">
-                <div className="flex flex-col">
-                  <span className="text-text-main font-bold text-xl leading-none">5.0</span>
-                  <div className="flex gap-1 py-2 text-accent">
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
-                    <Star className="w-4 h-4 fill-current" />
+      <section className="py-32 px-8 bg-white border-t border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-[#1A1A1A] text-sm leading-[1.8] tracking-wide">
+            <div className="space-y-6">
+              <h4 className="text-text-main text-lg font-medium">Protecting Your Naples Property Investment</h4>
+              <p>
+                In Naples, Florida, owning a home is a luxury, but maintaining it against the elements—and the pests—is a full-time commitment. Our city's unique geography, nestled between the Everglades and the Gulf of Mexico, creates a biological hotspot for insects and rodents. From the high-end estates in Port Royal to the family neighborhoods in North Naples, no property is naturally immune to infestation. Termites alone cause billions in property damage annually across Florida, and Naples homes are at particular risk due to the moist, sandy soil conditions that subterranean termites love.
+              </p>
+              <p>
+                Naples Pest Experts was founded on the principle that local knowledge is the most powerful tool in pest management. We understand how the changing seasons—from the dry winters to the sweltering, wet summers—affect bug migrations. When the rains start in May, ants lead a charge toward your kitchen. When the temperatures drop slightly in November, rodents look for warmth in your attic. Our technicians are trained to anticipate these shifts, adjusting our barrier treatments to provide proactive, rather than reactive, defense.
+              </p>
+            </div>
+            <div className="space-y-6">
+               <h4 className="text-text-main text-lg font-medium">Sustainable & Targeted Extermination Techniques</h4>
+               <p>
+                 Modern pest control isn't just about the chemicals; it's about the technology and methodology. At Naples Pest Experts, we leverage the latest in baiting technology and moisture analysis. We don't just spray baseboards; we identify the entry points under sinks, around plumbing penetrations, and along window sills where pests actually cross the threshold. By sealing these entry points (exclusion) and using targeted baits, we reduce the total volume of pesticide used in your home while increasing the effectiveness of the treatment.
+               </p>
+               <p>
+                 Security and trust are paramount when choosing a service provider to enter your home. That's why every one of our technicians undergoes rigorous background checks and continuous education. We are a family-owned business deeply rooted in the Naples community, supporting local schools and charities in Golden Gate and Bonita Springs. When you call +1 239-555-0174, you're not reaching a distant corporate call center; you're speaking with a neighbor who understands the value of a pest-free home.
+               </p>
+               <div className="pt-6 flex items-center gap-6">
+                  <div className="flex flex-col">
+                    <span className="text-text-main font-bold text-xl leading-none">5.0</span>
+                    <div className="flex gap-1 py-2 text-accent">
+                      <Star className="w-4 h-4 fill-current" />
+                      <Star className="w-4 h-4 fill-current" />
+                      <Star className="w-4 h-4 fill-current" />
+                      <Star className="w-4 h-4 fill-current" />
+                      <Star className="w-4 h-4 fill-current" />
+                    </div>
+                    <span className="text-[10px] uppercase font-bold tracking-widest text-[#1A1A1A]/60">Google Verified Rating</span>
                   </div>
-                  <span className="text-[10px] uppercase font-bold tracking-widest text-gray-400">Google Verified Rating</span>
-                </div>
-                <div className="w-px h-12 bg-gray-100"></div>
-                <div className="flex flex-col">
-                   <span className="text-text-main font-bold text-xl leading-none">12+</span>
-                   <span className="text-[10px] uppercase font-bold tracking-widest text-gray-400 mt-2">Years Serving Naples</span>
-                </div>
-             </div>
+                  <div className="w-px h-12 bg-gray-100"></div>
+                  <div className="flex flex-col">
+                     <span className="text-text-main font-bold text-xl leading-none">12+</span>
+                     <span className="text-[10px] uppercase font-bold tracking-widest text-[#1A1A1A]/60 mt-2">Years Serving Naples</span>
+                  </div>
+               </div>
+            </div>
           </div>
         </div>
       </section>
@@ -439,16 +531,21 @@ export default function Home() {
       </section>
 
       {/* Map Section */}
-      <section className="py-24 px-8 border-t border-gray-100 relative z-10 bg-white">
-        <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden bg-gray-50 border border-gray-200 h-[400px] flex items-center justify-center p-12 text-center shadow-inner">
-           <div>
-              <MapPin className="w-12 h-12 text-primary/20 mb-6 mx-auto" />
-              <h3 className="text-text-main font-medium mb-4">Visit Our Main Office</h3>
-              <p className="text-gray-500 mb-8 max-w-md mx-auto">4821 Tamiami Trail N, Naples, FL 34103</p>
-              <div className="p-20 bg-white rounded-2xl border border-gray-200 text-[10px] text-gray-400 font-mono italic shadow-sm">
-                 [EMBED GOOGLE MAP: 4821 Tamiami Trail N, Naples, FL 34103]
-              </div>
-           </div>
+      <section className="py-10 px-8 bg-white border-t border-gray-100 relative z-10">
+        <div className="max-w-6xl mx-auto text-center mb-8">
+           <h2 className="text-3xl md:text-4xl font-medium text-text-main mb-2">Visit Our Naples Office</h2>
+           <p className="text-gray-600">4821 Tamiami Trail N, Naples, FL 34103</p>
+        </div>
+        <div className="max-w-6xl mx-auto rounded-xl overflow-hidden shadow-sm">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7412491031896!2d-81.8033453259349!3d26.205094190144298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88db1e3e26e42259%3A0xabd2a47aead32031!2s4821%20Tamiami%20Trl%20N%2C%20Naples%2C%20FL%2034103%2C%20USA!5e0!3m2!1sen!2s!4v1777796219205!5m2!1sen!2s" 
+            width="100%" 
+            height="450" 
+            style={{ border: 0, borderRadius: '12px' }} 
+            allowFullScreen={true} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
 

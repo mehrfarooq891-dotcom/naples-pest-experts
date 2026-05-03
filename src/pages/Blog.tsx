@@ -37,13 +37,19 @@ export default function Blog() {
         description="Stay informed with the latest pest control advice from Naples Pest Experts. Preventing termites, roaches, and mosquitoes in Southwest Florida."
       />
 
-      <section className="pt-40 pb-20 px-8 text-center max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-6xl font-medium text-text-main mb-6 tracking-tight leading-tight">
-          Local Pest <span className="text-primary">Intelligence</span>
-        </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-          The specialized knowledge you need to protect your Southwest Florida property from invasive insects and rodents.
-        </p>
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden text-center"
+        style={{ background: 'linear-gradient(135deg, #1a3a2a 0%, #1B6B3A 100%)' }}
+      >
+        <div className="glow-primary opacity-20 -top-40 -right-40 scale-150"></div>
+        <div className="relative z-10 max-w-4xl mx-auto">
+          <h1 className="text-5xl md:text-6xl font-medium text-white mb-6 tracking-tight leading-tight">
+            Local Pest <span className="text-white">Intelligence</span>
+          </h1>
+          <p className="text-xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
+            The specialized knowledge you need to protect your Southwest Florida property from invasive insects and rodents.
+          </p>
+        </div>
       </section>
 
       <section className="py-24 px-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">

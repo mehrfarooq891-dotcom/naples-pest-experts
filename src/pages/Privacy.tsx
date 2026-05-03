@@ -4,8 +4,21 @@ export default function Privacy() {
   return (
     <div className="flex flex-col">
       <SEO title="Privacy Policy — Naples Pest Experts" description="Our privacy practices regarding your data." />
-      <section className="pt-40 pb-32 bg-white px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl font-medium text-text-main mb-8">Privacy Policy</h1>
+      
+      <section 
+        className="relative pt-40 pb-20 px-8 overflow-hidden text-center"
+        style={{ background: 'linear-gradient(135deg, #1B6B3A 0%, #0f4a28 100%)' }}
+      >
+        <div className="glow-primary opacity-20 -top-40 -left-40 scale-150"></div>
+        <div className="max-w-4xl mx-auto relative z-10">
+          <h1 className="text-5xl font-medium text-white mb-6 tracking-tight">Privacy Policy</h1>
+          <p className="text-xl text-gray-100 max-w-2xl mx-auto leading-relaxed">
+            Protecting your data as diligently as we protect your home.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-24 bg-white px-8 max-w-4xl mx-auto">
         <div className="prose prose-primary text-gray-600 space-y-6">
           <p>Last Updated: October 2025</p>
           <p>

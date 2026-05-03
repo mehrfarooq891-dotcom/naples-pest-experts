@@ -42,12 +42,18 @@ export default function ServiceAreas() {
         description="Naples Pest Experts serves the entire Southwest Florida region including Marco Island, Estero, Cape Coral, and more. Local experts for every neighborhood."
       />
       
-      <section className="pt-32 pb-20 px-8 text-center max-w-4xl mx-auto">
-        <h1 className="text-5xl font-medium text-text-main mb-6 tracking-tight\">Local Experts in Every Corner of Collier County</h1>
-        <p className="text-xl text-gray-600 mb-12\">
-          We don't just cover Naples. Our fleet is stationed strategically across Southwest Florida to ensure rapid response times, 
-          wherever you are.
-        </p>
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden text-center"
+        style={{ background: 'linear-gradient(135deg, #1B6B3A 0%, #0f4a28 100%)' }}
+      >
+        <div className="glow-primary opacity-20 -top-40 -left-40 scale-150"></div>
+        <div className="max-w-4xl mx-auto relative z-10">
+          <h1 className="text-5xl font-medium text-white mb-6 tracking-tight">Local Experts in Every Corner of Collier County</h1>
+          <p className="text-xl text-gray-100 mb-12">
+            We don't just cover Naples. Our fleet is stationed strategically across Southwest Florida to ensure rapid response times, 
+            wherever you are.
+          </p>
+        </div>
       </section>
 
       <section className="py-24 bg-white px-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

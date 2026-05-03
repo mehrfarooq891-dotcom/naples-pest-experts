@@ -10,15 +10,18 @@ export default function Contact() {
       />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-20 px-8 overflow-hidden bg-surface border-b border-gray-100">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #1B6B3A 0%, #0f4a28 100%)' }}
+      >
         <div className="glow-primary opacity-20 -top-40 -right-40 scale-150"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <span className="text-primary font-mono text-[10px] uppercase font-bold tracking-[0.3em] mb-6 block">Immediate Assistance</span>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-tight">
+          <span className="text-white font-mono text-[10px] uppercase font-bold tracking-[0.3em] mb-6 block border border-white/20 bg-white/10 px-4 py-1.5 rounded-full w-fit mx-auto">Immediate Assistance</span>
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-tight">
             How Can We <br/>
-            <span className="text-primary font-bold underline decoration-primary/20 underline-offset-8 italic">Protect</span> You?
+            <span className="text-white font-bold underline decoration-white/20 underline-offset-8 italic">Protect</span> You?
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-2xl mx-auto leading-relaxed">
             Found a pest problem? Don't wait. Our dispatch team is standing by to send a certified technician to your Naples property.
           </p>
         </div>
@@ -91,20 +94,22 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map Section Mockup */}
-      <section className="py-24 px-8 border-t border-gray-100 bg-white">
-        <div className="max-w-7xl mx-auto rounded-[3rem] h-[500px] bg-gray-50 border border-gray-200 flex items-center justify-center relative overflow-hidden group shadow-inner">
-           <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/10 transition-all"></div>
-           <div className="text-center relative z-10 px-8 mb-10 overflow-hidden">
-              <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-8 mx-auto shadow-2xl animate-bounce">
-                 <MapPin className="w-10 h-10 text-primary" />
-              </div>
-              <h2 className="text-2xl text-text-main font-bold mb-4">Our Center of Operations</h2>
-              <p className="text-gray-500 font-medium mb-12 max-w-sm mx-auto tracking-wide italic">4821 Tamiami Trail N, Naples, FL 34103</p>
-              <div className="p-20 bg-white rounded-[2.5rem] border border-gray-200 text-[10px] text-gray-400 font-mono italic tracking-widest shadow-sm">
-                 [INTERACTIVE LOCAL MAP EMBED: TAMIAMI TRAIL N]
-              </div>
-           </div>
+      {/* Map Section */}
+      <section className="py-10 px-8 border-t border-gray-100 bg-white">
+        <div className="max-w-7xl mx-auto text-center mb-8">
+           <h2 className="text-3xl md:text-4xl font-medium text-text-main mb-2">Visit Our Naples Office</h2>
+           <p className="text-gray-600">4821 Tamiami Trail N, Naples, FL 34103</p>
+        </div>
+        <div className="max-w-7xl mx-auto rounded-xl overflow-hidden shadow-sm">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7412491031896!2d-81.8033453259349!3d26.205094190144298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88db1e3e26e42259%3A0xabd2a47aead32031!2s4821%20Tamiami%20Trl%20N%2C%20Naples%2C%20FL%2034103%2C%20USA!5e0!3m2!1sen!2s!4v1777796219205!5m2!1sen!2s" 
+            width="100%" 
+            height="450" 
+            style={{ border: 0, borderRadius: '12px' }} 
+            allowFullScreen={true} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
     </div>

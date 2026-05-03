@@ -23,18 +23,21 @@ export default function BedBugTreatment() {
       <Schema data={serviceSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #2a0a0a, #8B0000)' }}
+      >
         <div className="glow-primary opacity-20 -top-40 -left-40 scale-150"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-red-50 border border-red-100 backdrop-blur-sm">
-             <AlertTriangle className="w-4 h-4 text-red-500" />
-             <span className="text-red-500 font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Priority Crisis Response</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <AlertTriangle className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Priority Crisis Response</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Guaranteed Bed Bug <br/>
-            <span className="text-red-500 font-bold">Elimination</span>
+            <span className="text-white font-bold">Elimination</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
             Bed bugs can happen to anyone. In Naples' high-traffic seasonal environment, they spread quickly through travel and rentals. Our team provides discreet, comprehensive remediation that kills every stage of the lifecycle—from eggs to adults—guaranteed.
           </p>
           <a href="tel:+12395550174" className="bg-primary text-white font-black py-5 px-10 rounded-2xl shadow-xl flex items-center justify-center gap-3 hover:opacity-90 transition-all hover:scale-105 active:scale-95 text-xl">

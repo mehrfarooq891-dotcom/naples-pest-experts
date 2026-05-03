@@ -13,8 +13,7 @@ export default function Footer() {
             <span className="text-xl font-bold text-white tracking-tight">Naples Pest Experts</span>
           </div>
           <p className="text-gray-300 text-sm leading-relaxed mb-6">
-            Southwest Florida's premier lead generation platform for professional pest control. 
-            Ranked #1 for reliability and local expertise in Naples, Collier County, and beyond.
+            Naples' trusted pest control specialists since 2011. Protecting homes and businesses across Collier County.
           </p>
           <div className="flex gap-4">
              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors text-white"><Facebook className="w-4 h-4" /></a>

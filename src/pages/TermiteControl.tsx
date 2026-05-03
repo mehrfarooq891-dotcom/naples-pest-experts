@@ -40,18 +40,21 @@ export default function TermiteControl() {
       <Schema data={faqSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden min-h-[70vh] flex items-center">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[70vh] flex items-center"
+        style={{ background: 'linear-gradient(135deg, #4a2c0a, #8B4513)' }}
+      >
         <div className="glow-primary opacity-30 -top-40 -left-40 scale-150"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 backdrop-blur-sm">
-             <ShieldCheck className="w-4 h-4 text-primary" />
-             <span className="text-primary font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Structural Preservation Specialists</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <ShieldCheck className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Structural Preservation Specialists</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Advanced Termite Control <br/>
-            <span className="text-primary font-bold">Naples, Florida</span>
+            <span className="text-white font-bold">Naples, Florida</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
             In our coastal paradise, termites aren't just an inconvenience—they are a financial catastrophe waiting to happen. Naples Pest Experts provides industry-leading liquid barriers and smart baiting systems designed to neutralize colonies before they compromise your structural integrity.
           </p>
           <div className="flex flex-col sm:flex-row gap-6">

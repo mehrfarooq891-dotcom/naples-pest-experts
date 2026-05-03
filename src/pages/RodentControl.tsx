@@ -23,18 +23,21 @@ export default function RodentControl() {
       <Schema data={serviceSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #1a1a1a, #4a4a4a)' }}
+      >
         <div className="glow-primary opacity-20 -top-40 -left-40 scale-150"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 backdrop-blur-sm">
-             <ShieldCheck className="w-4 h-4 text-primary" />
-             <span className="text-primary font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Structural Exclusion Experts</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <ShieldCheck className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Structural Exclusion Experts</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Rodent-Free <br/>
-            <span className="text-primary font-bold">Living Forever</span>
+            <span className="text-white font-bold">Living Forever</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
             Rats and mice don't just destroy food—they chew through electrical wiring, creating fire hazards in your attic. In Naples, "Roof Rats" are an epidemic. Naples Pest Experts doesn't just trap rodents; we seal your home so they can't come back.
           </p>
           <a href="tel:+12395550174" className="bg-primary text-white font-black py-5 px-10 rounded-2xl shadow-xl flex items-center justify-center gap-3 hover:opacity-90 transition-all hover:scale-105 active:scale-95 text-xl">

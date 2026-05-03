@@ -23,18 +23,21 @@ export default function CockroachControl() {
       <Schema data={serviceSchema} />
 
       {/* Hero */}
-      <section className="relative pt-40 pb-32 bg-white px-8 overflow-hidden">
+      <section 
+        className="relative pt-40 pb-32 px-8 overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #1a1a0a, #3d3d00)' }}
+      >
         <div className="glow-primary opacity-30 -top-40 -right-40 scale-150"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
-          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 backdrop-blur-sm">
-             <Bug className="w-4 h-4 text-primary" />
-             <span className="text-primary font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Naples' Leading Exterminators</span>
+          <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
+             <Bug className="w-4 h-4 text-white" />
+             <span className="text-white font-mono text-[10px] uppercase tracking-[0.2em] font-bold">Naples' Leading Exterminators</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-medium text-text-main mb-8 tracking-tight leading-[1.1]">
+          <h1 className="text-5xl md:text-7xl font-medium text-white mb-8 tracking-tight leading-[1.1]">
             Total Cockroach <br/>
-            <span className="text-primary font-bold">Elimination</span>
+            <span className="text-white font-bold">Elimination</span>
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-3xl leading-relaxed">
+          <p className="text-xl text-gray-100 mb-12 max-w-3xl leading-relaxed">
             From the massive "Palmetto Bugs" to the invasive German Cockroach, roaches are a health hazard and a nuisance. Naples Pest Experts uses medical-grade baits and growth regulators to wipe out infestations in kitchens, bathrooms, and utility areas.
           </p>
           <a href="tel:+12395550174" className="bg-primary text-white font-black py-5 px-10 rounded-2xl shadow-xl flex items-center justify-center gap-3 hover:opacity-90 transition-all hover:scale-105 active:scale-95 text-xl">

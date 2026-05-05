@@ -35,68 +35,85 @@ export default function PostTermiteSigns() {
       <section className="pb-32 px-8 max-w-4xl mx-auto leading-relaxed text-gray-600 space-y-8">
         <div className="prose prose-primary max-w-none">
           <p className="text-xl text-gray-500 mb-8 italic border-l-4 border-primary/30 pl-8 py-2">
-            "In Naples, Florida, the question isn't whether your home will face termite pressure—it's whether you'll catch them before they eat your structural equity."
+            "In Southwest Florida, the question isn't whether your home will face termite pressure—it's whether you'll catch them before they eat your structural equity."
           </p>
           
           <p>
-            Naples is a masterpiece of coastal architecture, from the historic estates of Old Naples to the modern luxury builds in North Naples. However, our city is also a biological hotspot for the most destructive termites in the world. Between the <strong>Asian Subterranean Termite</strong> and the native <strong>Eastern Subterranean Termite</strong>, Southwest Florida property owners are under constant siege.
+            Naples is a masterpiece of coastal architecture, but it is also a biological hotspot for the most destructive termites in the world. Our unique Gulf Coast climate—characterized by high humidity, sandy soil, and year-round warm temperatures—creates the perfect breeding ground for these silent destroyers. In Naples, the sandy soil makes it incredibly easy for subterranean termites to navigate underground until they find a way into your foundation, while the constant moisture in the air keeps them hydrated as they hollow out your home.
           </p>
 
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">1. Mud Tubes on the Foundation</h2>
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">1. Mud Tubes on Walls</h2>
           <p>
-            Subterranean termites require constant moisture. To travel from their underground colonies into your home without drying out, they build mud tubes—pencil-thin tunnels made of soil, saliva, and fecal matter. Look for these along your foundation, in garages, or crawling up drywall in your utility room.
+            Subterranean termites are the most common threat in Naples. Because they have thin skin and dry out easily, they build specialized "mud tubes" to travel from the moist Naples soil into your home. These pencil-sized tunnels are made of soil, saliva, and fecal matter. In our local area, you'll often find these climbing up foundation walls, inside garages, or even along baseboards. Finding mud tubes is a definitive sign of an active infestation that has already breached your home's exterior defenses and is potentially moving into your structural beams.
           </p>
 
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">2. Discarded Wings (The Swarmers)</h2>
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">2. Hollow Sounding Wood</h2>
           <p>
-            Termite "swarmers" are reproductive adults out to start new colonies. In Naples, after a spring rain, you might see thousands of small flying insects. Once they find a mate, they shed their wings. If you find translucent, equal-sized wings on your windowsills or near doors, a colony is either currently swarming or settling into your rafters.
+            Termites consume wood from the inside out, following the grain of the lumber. This leaves a thin outer shell of wood or even just the layer of paint. If you tap on your baseboards, door frames, or crown molding in your Naples home and it sounds thin or hollow, it's a major red flag. In many Southwest Florida homes with high ceilings and intricate woodwork, termites can dwell in the rafters for years undetected until the structural integrity is compromised. Professionals often use specialized hammers or acoustic equipment to "listen" for these voids.
           </p>
 
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">3. Hollow-Sounding Wood</h2>
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">3. Discarded Wings Near Windows</h2>
           <p>
-            Worker termites consume wood from the inside out, often following the grain. This leaves a thin outer shell of wood or even just the layer of paint. If a baseboard or door frame sounds hollow when tapped with a screwdriver, it's likely been "evacuated" by a colony.
+            After a typical Naples spring rain, termite "swarmers" (the reproductive members) take flight to find mates and establish new colonies. Once they locate a suitable spot, they shed their wings. If you find small, translucent, iridescent wings piled on your windowsills or caught in spiderwebs near exterior entry points, it means a swarm has recently occurred. This is a critical warning that a colony is either currently attempting to enter your home or, worse, that an established colony is already inside and is now expanding.
           </p>
 
-          <div className="my-16 p-10 rounded-[2.5rem] bg-gray-50 border border-gray-100 relative overflow-hidden group">
-             <div className="absolute top-0 right-0 p-8 opacity-5">
-                <Bug className="w-32 h-32 text-primary" />
-             </div>
-             <h4 className="text-xl text-text-main font-bold mb-4 flex items-center gap-3">
-                <AlertTriangle className="w-5 h-5 text-amber-500" /> Expert Advice for Naples Homeowners:
-             </h4>
-             <p className="text-sm text-gray-500 leading-relaxed">
-                Don't mistake termites for flying ants. Termites have straight antennae, equal-length wings, and a thick waist. Ants have elbowed antennae, unequal wing lengths, and a pinched waist. If you aren't sure, grab a sample in a zip-lock bag and call us at <strong>+1 239-555-0174</strong> for a free ID.
-             </p>
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">4. Bubbling or Uneven Paint</h2>
+          <p>
+            In the humid Naples environment, moisture is the enemy of any structure. When subterranean termites tunnel through wood, they bring moisture with them. This moisture can build up behind your wall paint, causing it to bubble, peel, or look like it has water damage. Many Naples homeowners mistake this for a simple plumbing leak or condensation from their AC unit, only to discover a termite gallery behind the dry wall. If your paint looks "stretched" or shows tiny pinholes, it's time for a professional termite inspection immediately.
+          </p>
+
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">5. Tight Fitting Doors and Windows</h2>
+          <p>
+            As termites travel through and consume the wood in your home, the moisture they introduce causes the wood to swell. This often results in doors that suddenly become difficult to close or windows that feel "stuck" in their frames. While we often blame the Florida humidity for "house settling," it's often the byproduct of an active termite colony feeding on the framing of your home. If a door that used to swing freely now scrapes against the jamb, it’s a physical symptom of structural change that warrants an expert look.
+          </p>
+
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">6. Frass (Termite Droppings)</h2>
+          <p>
+            Drywood termites, which are particularly common in the older neighborhoods of Naples like Pelican Bay or Old Naples, don't live in the soil. They live entirely within the wood they eat. As they clean their galleries, they push out small, six-sided fecal pellets known as "frass." Frass looks like tiny piles of salt, pepper, or very fine sawdust. If you find these small mounds appearing on your floors, inside cabinets, or on windowsills, you have found the "calling card" of a drywood termite colony that is actively feeding.
+          </p>
+
+          <h2 className="text-2xl text-text-main font-bold mt-12 mb-6">7. Visible Termite Swarmers</h2>
+          <p>
+            The most obvious sign of an infestation is seeing the termites themselves. Swarmers are often mistaken for flying ants, but they are very different. Termites have straight antennae, equal-length wings, and a thick, uniform waist. Seeing a swarm inside your Naples home is an emergency situation, as it usually means they are exiting from an established colony within your walls. Because Naples resides in a "termite belt," seeing these swarmers outside your home is also a warning that the "termite pressure" on your property is high and you should ensure your perimeter defense is up to date.
+          </p>
+
+          {/* FAQ Section */}
+          <div className="mt-20 pt-12 border-t border-gray-100">
+            <h3 className="text-3xl font-medium text-text-main mb-10">Frequently Asked Termite Questions in Naples</h3>
+            <div className="space-y-8">
+              <div>
+                <h4 className="text-lg font-bold text-text-main mb-2">How often should I get a termite inspection in Naples?</h4>
+                <p className="text-gray-600">Given our high-risk climate, we recommend a professional termite inspection once every 12 months. Early detection is the only way to prevent five-figure repair bills that are rarely covered by homeowners' insurance.</p>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-text-main mb-2">Can Termites Survive the Naples Rainy Season?</h4>
+                <p className="text-gray-600">They don't just survive it; they thrive in it. The rainy season provides the moisture subterranean termites need to move faster and build more expansive tunnel systems around your foundation.</p>
+              </div>
+              <div>
+                <h4 className="text-lg font-bold text-text-main mb-2">What is the difference between Subterranean and Drywood termites?</h4>
+                <p className="text-gray-600">Subterranean termites live in the soil and build mud tubes to enter your home; they are incredibly fast eaters. Drywood termites live entirely inside your wood and don't require soil contact; they are found more often in rafters and furniture.</p>
+              </div>
+            </div>
           </div>
 
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">4. Frass (Termite Droppings)</h2>
-          <p>
-            Drywood termites, common in older Naples homes, don't live in the ground. They live entirely within the wood they eat. As they clear out their galleries, they push out small, six-sided fecal pellets called frass. These look like tiny piles of salt, pepper, or sawdust.
-          </p>
-
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">5. Clicking Noises in the Walls</h2>
-          <p>
-            If you listen closely, you might actually hear termites. When the colony is disturbed, soldier termites bang their heads against the wood to signal danger to the rest of the nest. This creates a faint clicking sound that can be heard at night when the house is quiet.
-          </p>
-
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">6. Tight-Fitting Doors and Buckling Paint</h2>
-          <p>
-            As termites consume wood and bring in moisture, the surrounding materials expand. This can cause doors to stick in their frames or windows to become difficult to open. Similarly, subterranean activities can lead to moisture building up behind your wall paint, causing it to bubble or peel as if there’s a water leak.
-          </p>
-
-          <h2 className="text-2xl text-text-main font-medium mt-12 mb-6">7. Visible Galleries</h2>
-          <p>
-            If you happen to break a piece of wood or open a wall, you may see galleries—intricate, carved-out hollows in the wood. Subterranean galleries usually have soil and grit, while drywood galleries are clean and smooth.
-          </p>
-
           <div className="mt-20 pt-12 border-t border-gray-100 text-center">
-             <h3 className="text-3xl font-medium text-text-main mb-6">Don't Let Them Eat Your Equity</h3>
-             <p className="mb-10 max-w-xl mx-auto">
-                Evidence of termites in Naples requires immediate professional action. We offer Thermal Acoustic Mapping to find exactly where they are hiding without damaging your home.
-             </p>
-             <a href="tel:+12395550174" className="inline-flex items-center gap-3 bg-primary text-white font-black py-4 px-10 rounded-2xl hover:opacity-90 transition-all text-lg shadow-2xl shadow-primary/20">
-                Free Termite Inspection: +1 239-555-0174
-             </a>
+            <div className="inline-block p-1 bg-primary/10 rounded-full mb-6">
+              <div className="bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-widest px-4 py-1.5 rounded-full">
+                Collier County Protection Active
+              </div>
+            </div>
+            <h3 className="text-3xl font-medium text-text-main mb-6">Don't Wait for the Damage to Spread</h3>
+            <p className="mb-10 max-w-xl mx-auto">
+              If you’ve seen any of these 7 signs, you need a professional evaluation immediately. We connect you with the top-rated termite specialists in Naples for a comprehensive, zero-obligation inspection.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:+12395550174" className="inline-flex items-center gap-3 bg-primary text-white font-black py-4 px-10 rounded-2xl hover:opacity-90 transition-all text-lg shadow-2xl shadow-primary/20">
+                <Phone className="w-5 h-5" /> Free Termite Inspection
+              </a>
+              <Link to="/contact" className="inline-flex items-center gap-3 bg-white border border-gray-200 text-text-main font-bold py-4 px-10 rounded-2xl hover:bg-gray-50 transition-all text-lg">
+                Book Online
+              </Link>
+            </div>
           </div>
         </div>
       </section>

@@ -68,9 +68,6 @@ export default function Footer() {
           <p className="text-[10px] text-gray-400 uppercase font-bold tracking-[0.2em]">
             © 2026 Naples Pest Experts • All Rights Reserved • Licensed #JB193775
           </p>
-          <p className="text-[10px] text-gray-500 uppercase tracking-widest max-w-2xl mx-auto md:mx-0">
-            Naples Pest Experts is a local pest control referral network connecting Naples homeowners with licensed, vetted pest control professionals.
-          </p>
         </div>
         <div className="flex gap-6 text-[10px] text-gray-400 font-bold uppercase">
            <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

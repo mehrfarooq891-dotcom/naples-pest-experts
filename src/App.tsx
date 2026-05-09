@@ -14,6 +14,7 @@ import PostTermiteSigns from './pages/PostTermiteSigns';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
+import PostBedBugTreatment from './pages/PostBedBugTreatment';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="/blog/roach-prevention-summer-naples" element={<PostRoachControl />} />
             <Route path="/blog/mosquito-control-guide-naples" element={<PostMosquitoControl />} />
             <Route path="/blog/mosquito-season-naples-preparation" element={<PostMosquitoSeason />} />
+            <Route path="/blog/bed-bug-treatment-naples" element={<PostBedBugTreatment />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>

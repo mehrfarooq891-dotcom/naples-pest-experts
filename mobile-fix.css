@@ -1,0 +1,162 @@
+/* 
+ * mobile-fix.css
+ * Dedicated, supercharged mobile-responsiveness overrides for Naples Pest Experts.
+ * Designed to adapt perfectly down to 320px screens without altering any of the original styling.
+ */
+
+/* ==========================================
+   1. Clean Layout and Prevent Horizontal Scroll
+   ========================================== */
+html, body {
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+
+/* ==========================================
+   2. Responsive Spacing & Grid Reductions
+   ========================================== */
+@media (max-width: 768px) {
+  /* Scale-down section vertical spaces */
+  .py-24 {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+  .py-32 {
+    padding-top: 4.5rem !important;
+    padding-bottom: 4.5rem !important;
+  }
+  .pt-40 {
+    padding-top: 7rem !important;
+  }
+  .pb-32 {
+    padding-bottom: 5rem !important;
+  }
+
+  /* Universal safety horizontal padding for parent sections/containers */
+  .px-8, .px-12, .px-16 {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+
+  /* Grid/flex gap reduction preventing unnecessary white space empty gaps */
+  .gap-24, .gap-20, .gap-16 {
+    gap: 1.75rem !important;
+  }
+  .gap-12 {
+    gap: 1.25rem !important;
+  }
+  
+  /* Flex direction collapsing helpers if needed */
+  .flex-row-mobile-stack {
+    flex-direction: column !important;
+  }
+}
+
+/* ==========================================
+   3. Fluid & Responsive Typography scaling
+   ========================================== */
+@media (max-width: 640px) {
+  .text-4xl {
+    font-size: 1.875rem !important; /* ~30px */
+    line-height: 1.25 !important;
+  }
+  .text-5xl {
+    font-size: 2.125rem !important; /* ~34px */
+    line-height: 1.2 !important;
+  }
+  .text-6xl {
+    font-size: 2.5rem !important; /* ~40px */
+    line-height: 1.15 !important;
+  }
+  .text-7xl {
+    font-size: 2.75rem !important; /* ~44px */
+    line-height: 1.1 !important;
+  }
+  .text-8xl {
+    font-size: 3.25rem !important; /* ~52px */
+    line-height: 1.1 !important;
+  }
+}
+
+/* ==========================================
+   4. Better Navigation Bar & Brand presentation
+   ========================================== */
+@media (max-width: 480px) {
+  /* Safeguard long link text or phone numbers from compressing in header */
+  nav .max-w-7xl {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  nav span.text-xl {
+    font-size: 1.125rem !important; /* ~18px */
+  }
+  nav span.text-\[10px\] {
+    font-size: 8px !important;
+  }
+}
+
+/* ==========================================
+   5. Interactive Touch Targets & Inputs Optimization
+   ========================================== */
+@media (max-width: 767px) {
+  /* Increase buttons and links hit boxes on mobile to meet 44px min */
+  button, 
+  a.inline-flex, 
+  a.flex,
+  input, 
+  select, 
+  textarea,
+  .btn {
+    min-height: 44px !important;
+  }
+
+  /* Prevent automatic iOS input zoom on focused fields */
+  input, 
+  select, 
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* ==========================================
+   6. Touch-friendly Tables & Images Support
+   ========================================== */
+table {
+  display: block !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  word-break: normal !important;
+  white-space: nowrap !important;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+/* ==========================================
+   7. Visual Artifacts / SVGs responsiveness adjustments
+   ========================================== */
+svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Optimize card/grid elements on extra-small viewports */
+@media (max-width: 375px) {
+  .p-12, .p-10, .p-8 {
+    padding: 1.25rem !important;
+  }
+  .p-6, .p-4 {
+    padding: 1rem !important;
+  }
+}

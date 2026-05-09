@@ -39,6 +39,15 @@ export default function Blog() {
       readTime: "5 min read",
       category: "Outdoor Living",
       gradient: "linear-gradient(135deg, #1B6B3A, #0f4a28)"
+    },
+    {
+      id: 'bed-bug-treatment-naples',
+      title: "Bed Bug Treatment in Naples — What to Expect and How Long It Takes",
+      excerpt: "Discover the best bed bug treatment options in Naples, how long chemical and heat treatments take, and how to prepare your home.",
+      date: "May 09, 2026",
+      readTime: "7 min read",
+      category: "Extermination",
+      gradient: "linear-gradient(135deg, #7A1C1C, #3B0D0D)"
     }
   ];
 

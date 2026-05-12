@@ -40,11 +40,16 @@ export default function TermiteControl() {
       <Schema data={faqSchema} />
 
       {/* Hero */}
-      <section 
-        className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[70vh] flex items-center"
-        style={{ background: 'linear-gradient(135deg, #4a2c0a, #8B4513)' }}
-      >
-        <div className="glow-primary opacity-30 -top-40 -left-40 scale-150"></div>
+      <section className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[70vh] flex items-center bg-zinc-950">
+        {/* Background Image with Overlay */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-25 z-0 scale-105 select-none pointer-events-none" 
+          style={{ 
+            backgroundImage: `url('https://images.unsplash.com/photo-1595228702420-b3740f7f9761?auto=format&fit=crop&w=1920&q=80')` 
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/90 to-zinc-950/40 z-[1] select-none pointer-events-none"></div>
+        <div className="glow-primary opacity-30 -top-40 -left-40 scale-150 z-[2]"></div>
         <div className="relative z-10 max-w-5xl mx-auto flex flex-col items-center text-center">
           <div className="flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm">
              <ShieldCheck className="w-4 h-4 text-white" />

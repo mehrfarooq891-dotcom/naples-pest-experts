@@ -57,7 +57,7 @@ export default function About() {
              </Link>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative flex flex-col gap-8">
            <div className="aspect-square rounded-[3rem] bg-gradient-to-br from-primary/20 to-primary/5 border border-gray-100 p-1">
               <div className="w-full h-full rounded-[2.8rem] bg-gray-50 p-12 flex flex-col justify-center relative overflow-hidden shadow-2xl">
                  <div className="glow-primary opacity-30 top-0 right-0"></div>
@@ -71,6 +71,14 @@ export default function About() {
                  </ul>
               </div>
            </div>
+           <img 
+              id="about-right-side-image"
+              src="https://images.unsplash.com/photo-1595228702420-b3740f7f9761?auto=format&fit=crop&w=800&q=80" 
+              alt="Professional Pest Control Naples FL" 
+              className="w-full h-[400px] object-cover rounded-[12px] shadow-lg"
+              style={{ width: '100%', height: '400px', objectFit: 'cover', borderRadius: '12px' }}
+              referrerPolicy="no-referrer"
+           />
         </div>
       </section>
 

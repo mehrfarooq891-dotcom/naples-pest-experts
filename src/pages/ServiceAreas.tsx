@@ -63,12 +63,12 @@ export default function ServiceAreas() {
                 <MapPin className="w-5 h-5 text-primary" />
                 <h3 className="text-2xl font-medium text-text-main">{area.name}</h3>
              </div>
-             <p className="text-sm text-gray-500 leading-relaxed mb-6 flex-1\">
+             <p className="text-sm text-gray-500 leading-relaxed mb-6 flex-1">
                {area.detail}
              </p>
-             <div className="mt-auto\">
-                <span className="text-[10px] font-bold text-red-500 uppercase tracking-widest block mb-4\">Principal Risk: {area.risk}</span>
-                <button className="flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-wider hover:gap-4 transition-all hover:text-primary/80\">
+             <div className="mt-auto">
+                <span className="text-[10px] font-bold text-red-500 uppercase tracking-widest block mb-4">Principal Risk: {area.risk}</span>
+                <button className="flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-wider hover:gap-4 transition-all hover:text-primary/80">
                    View Area Map <ArrowRight className="w-4 h-4" />
                 </button>
              </div>
@@ -76,13 +76,13 @@ export default function ServiceAreas() {
         ))}
       </section>
 
-      <section className="py-24 bg-white px-8 text-center border-y border-gray-100 shadow-inner relative overflow-hidden\">
-         <div className="glow-primary opacity-10\"></div>
-         <h2 className="text-3xl font-medium text-text-main mb-6 relative z-10\">Don't See Your Location Listed?</h2>
-         <p className="text-gray-500 mb-10 max-w-xl mx-auto relative z-10 text-lg\">
+      <section className="py-24 bg-white px-8 text-center border-y border-gray-100 shadow-inner relative overflow-hidden">
+         <div className="glow-primary opacity-10"></div>
+         <h2 className="text-3xl font-medium text-text-main mb-6 relative z-10">Don't See Your Location Listed?</h2>
+         <p className="text-gray-500 mb-10 max-w-xl mx-auto relative z-10 text-lg">
            We often travel within a 45-mile radius of the Naples city center. Give us a call to verify if our technicians can reach your property today.
          </p>
-         <a href="tel:+12395550174" className="inline-flex items-center gap-3 bg-primary text-white font-bold py-4 px-8 rounded-xl hover:opacity-90 transition-all shadow-xl shadow-primary/20\">
+         <a href="tel:+12395550174" className="inline-flex items-center gap-3 bg-primary text-white font-bold py-4 px-8 rounded-xl hover:opacity-90 transition-all shadow-xl shadow-primary/20">
             Verify Service Area: +1 239-555-0174
          </a>
       </section>

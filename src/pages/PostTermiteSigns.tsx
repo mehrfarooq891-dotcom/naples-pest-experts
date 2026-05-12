@@ -128,16 +128,16 @@ export default function PostTermiteSigns() {
       {/* Recommended Posts */}
       <section className="py-24 px-8 border-t border-gray-100 bg-surface">
          <div className="max-w-5xl mx-auto">
-            <h3 className="text-xl font-medium text-text-main mb-10 uppercase tracking-widest\">Continue Reading</h3>
+            <h3 className="text-xl font-medium text-text-main mb-10 uppercase tracking-widest">Continue Reading</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                {[
                  { id: 'roach-prevention-summer-naples', title: "Preventing Summer Roach Invasions", type: "Prevention" },
                  { id: 'mosquito-control-guide-naples', title: "Naples Mosquito Defense Guide", type: "Outdoor Living" }
                ].map(p => (
-                 <Link key={p.id} to={`/blog/${p.id}`} className="p-8 rounded-3xl bg-white border border-gray-200 hover:border-primary/20 transition-all group flex flex-col justify-between h-56 shadow-sm hover:shadow-md\">
+                 <Link key={p.id} to={`/blog/${p.id}`} className="p-8 rounded-3xl bg-white border border-gray-200 hover:border-primary/20 transition-all group flex flex-col justify-between h-56 shadow-sm hover:shadow-md">
                     <span className="text-[10px] font-bold text-primary tracking-[0.2em] uppercase">{p.type}</span>
                     <h4 className="text-2xl font-medium text-text-main leading-tight group-hover:text-primary transition-colors">{p.title}</h4>
-                    <div className="text-xs font-bold text-gray-400 flex items-center gap-2 group-hover:text-primary transition-colors uppercase tracking-widest\">
+                    <div className="text-xs font-bold text-gray-400 flex items-center gap-2 group-hover:text-primary transition-colors uppercase tracking-widest">
                        Read Post <ArrowRight className="w-3 h-3" />
                     </div>
                  </Link>

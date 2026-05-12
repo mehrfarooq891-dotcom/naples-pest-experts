@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'is-pest-control-safe-kids-pets-naples',
+      title: "Is Pest Control Safe for Kids and Pets? Naples Families Ask",
+      excerpt: "Concerned about child & pet safety during pest treatments? Learn about families' choices with child & pet safe pest control and eco friendly exterminator practices in Southwest Florida.",
+      date: "May 12, 2026",
+      readTime: "5 min read",
+      category: "Family & Pet Safety",
+      gradient: "linear-gradient(135deg, #0F6A54, #073D30)"
+    },
+    {
       id: 'signs-you-have-termites-naples',
       title: "7 Warning Signs You Have Termites in Your Naples, FL Home",
       excerpt: "In Southwest Florida, termites are a constant threat. Learn the subtle signs that your home is under attack before major damage occurs.",
@@ -48,6 +57,15 @@ export default function Blog() {
       readTime: "7 min read",
       category: "Extermination",
       gradient: "linear-gradient(135deg, #7A1C1C, #3B0D0D)"
+    },
+    {
+      id: 'rodent-control-naples-fl-how-to-keep-rats-out-of-your-attic',
+      title: "Rodent Control in Naples FL — How to Keep Rats Out of Your Attic",
+      excerpt: "Roof rats are common in Naples attic spaces. Learn the signs of infestation and 5 expert rodent exclusion methods to secure your Southwest Florida home.",
+      date: "May 10, 2026",
+      readTime: "7 min read",
+      category: "Rodent Defense",
+      gradient: "linear-gradient(135deg, #1a1a1a, #303030)"
     }
   ];
 

@@ -54,11 +54,11 @@ export default function Home() {
       <section 
         className="relative pt-40 pb-32 px-8 overflow-hidden min-h-[85vh] flex items-center bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80')` 
+          backgroundImage: `url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1920&q=80')` 
         }}
       >
-        {/* Dark Green Overlay */}
-        <div className="absolute inset-0 bg-[#0a2e18]/60 z-[1]"></div>
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 z-[1]" style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}></div>
 
         {/* Subtle Pattern Overlay */}
         <div className="absolute inset-0 opacity-[0.05] pointer-events-none z-[2]" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM6 30V20h2v10h24V20h2v10h24v2H34v24h-2V32H6v-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }}></div>
@@ -163,31 +163,36 @@ export default function Home() {
               title: "Termite Control", 
               path: "/termite-control-naples",
               desc: "Florida termites never sleep. We offer advanced liquid barriers and baiting systems to stop subterranean and drywood termites from destroying your investment.",
-              tags: ["Sentricon Certified", "Liquid Barrier", "WDO Reports"]
+              tags: ["Sentricon Certified", "Liquid Barrier", "WDO Reports"],
+              image: "https://images.unsplash.com/photo-1595228702420-b3740f7f9761?auto=format&fit=crop&w=800&q=80"
             },
             { 
               title: "Cockroach Control", 
               path: "/cockroach-control-naples",
               desc: "Roaches are more than a nuisance; they're a health risk. We deploy targeted, low-toxicity treatments to eliminate infestations at the source.",
-              tags: ["IGRs Used", "Medical-Grade Bait", "Guaranteed Result"]
+              tags: ["IGRs Used", "Medical-Grade Bait", "Guaranteed Result"],
+              image: "https://images.unsplash.com/photo-1595228702420-b3740f7f9761?auto=format&fit=crop&w=800&q=80"
             },
             { 
               title: "Mosquito Control", 
               path: "/mosquito-control-naples",
               desc: "Reclaim your backyard. Our monthly misting and barrier treatments keep the Naples mosquito population away from your family and pets.",
-              tags: ["Monthly Misting", "Foliage Spray", "Habitat Removal"]
+              tags: ["Monthly Misting", "Foliage Spray", "Habitat Removal"],
+              image: "https://images.unsplash.com/photo-1533236897211-13ef20bc767d?auto=format&fit=crop&w=800&q=80"
             },
             { 
               title: "Bed Bug Treatment", 
               path: "/bed-bug-treatment-naples",
               desc: "Don't lose a night's sleep. Our heat and chemical treatments are discreet, fast, and guaranteed to wipe out every stage of the bed bug lifecycle.",
-              tags: ["Thermal Remediation", "Discreet Service", "Fast Kill"]
+              tags: ["Thermal Remediation", "Discreet Service", "Fast Kill"],
+              image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
             },
             { 
               title: "Rodent Control", 
               path: "/rodent-control-naples",
               desc: "Mice and rats in Naples can chew through wires and cause fires. We find the entry points, seal them up, and humanely remove the intruders.",
-              tags: ["Total Exclusion", "Attic Sanitation", "Snap Traps"]
+              tags: ["Total Exclusion", "Attic Sanitation", "Snap Traps"],
+              image: "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?auto=format&fit=crop&w=800&q=80"
             },
             { 
               title: "Emergency Response", 
@@ -199,8 +204,19 @@ export default function Home() {
             <Link 
               key={s.title} 
               to={s.path} 
-              className="group p-10 rounded-[2.5rem] bg-white border border-gray-100 hover:border-primary transition-all flex flex-col h-full shadow-sm hover:shadow-xl"
+              className="group p-10 rounded-[2.5rem] bg-white border border-gray-100 hover:border-primary transition-all flex flex-col h-full shadow-sm hover:shadow-xl overflow-hidden"
+              id={`service-card-${s.title.toLowerCase().replace(/\s+/g, '-')}`}
             >
+              {s.image && (
+                <img 
+                  id={`service-img-${s.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  src={s.image} 
+                  alt={s.title} 
+                  className="w-full h-[220px] object-cover rounded-t-[8px] mb-8"
+                  style={{ height: '220px', width: '100%', objectFit: 'cover', borderRadius: '8px 8px 0 0' }}
+                  referrerPolicy="no-referrer"
+                />
+              )}
               <div className="w-14 h-14 mb-8 rounded-2xl bg-primary/5 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
                 <Shield className="w-7 h-7" />
               </div>
@@ -499,6 +515,11 @@ export default function Home() {
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
+            {
+              id: 'is-pest-control-safe-kids-pets-naples',
+              title: "Is Pest Control Safe for Kids & Pets? Naples Families Ask",
+              date: "May 12, 2026"
+            },
             {
               id: 'signs-you-have-termites-naples',
               title: "7 Warning Signs You Have Termites in Your Naples, FL Home",

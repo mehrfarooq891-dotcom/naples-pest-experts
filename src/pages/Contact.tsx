@@ -61,17 +61,17 @@ export default function Contact() {
            <form className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-xl space-y-8 flex-1">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                  <div className="space-y-3">
-                    <label className="text-xs uppercase font-bold text-gray-600 tracking-widest\">Full Name</label>
+                    <label className="text-xs uppercase font-bold text-gray-600 tracking-widest">Full Name</label>
                     <input type="text" placeholder="John Doe" className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all" />
                  </div>
                  <div className="space-y-3">
-                    <label className="text-xs uppercase font-bold text-gray-600 tracking-widest\">Phone Number</label>
+                    <label className="text-xs uppercase font-bold text-gray-600 tracking-widest">Phone Number</label>
                     <input type="tel" placeholder="(239) 000-0000" className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all" />
                  </div>
               </div>
               <div className="space-y-3">
-                 <label className="text-xs uppercase font-bold text-gray-600 tracking-widest\">Service Needed</label>
-                 <select className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all appearance-none\">
+                 <label className="text-xs uppercase font-bold text-gray-600 tracking-widest">Service Needed</label>
+                 <select className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all appearance-none">
                     <option>Termite Control</option>
                     <option>Cockroach Elimination</option>
                     <option>Mosquito Misting</option>
@@ -81,13 +81,13 @@ export default function Contact() {
                  </select>
               </div>
               <div className="space-y-3">
-                 <label className="text-xs uppercase font-bold text-gray-600 tracking-widest\">How can we help?</label>
-                 <textarea rows={4} placeholder="Tell us about your pest problem..." className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all resize-none\"></textarea>
+                 <label className="text-xs uppercase font-bold text-gray-600 tracking-widest">How can we help?</label>
+                 <textarea rows={4} placeholder="Tell us about your pest problem..." className="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 px-6 text-text-main text-sm focus:outline-none focus:border-primary/50 transition-all resize-none"></textarea>
               </div>
-              <button className="w-full bg-primary text-white font-black py-5 rounded-2xl flex items-center justify-center gap-3 hover:opacity-90 transition-all transform active:scale-95 shadow-xl shadow-primary/20 uppercase tracking-widest text-sm\">
+              <button className="w-full bg-primary text-white font-black py-5 rounded-2xl flex items-center justify-center gap-3 hover:opacity-90 transition-all transform active:scale-95 shadow-xl shadow-primary/20 uppercase tracking-widest text-sm">
                  Send Request <Send className="w-4 h-4" />
               </button>
-              <p className="text-[10px] text-gray-500 text-center uppercase font-bold tracking-widest leading-relaxed px-10\">
+              <p className="text-[10px] text-gray-500 text-center uppercase font-bold tracking-widest leading-relaxed px-10">
                 BY CLICKING "SEND REQUEST" YOU AGREE TO RECEIVE COMMUNICATIONS FROM NAPLES PEST EXPERTS REGARDING YOUR SERVICE QUOTE.
               </p>
            </form>

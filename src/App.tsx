@@ -11,10 +11,12 @@ import EmergencyPestControl from './pages/EmergencyPestControl';
 import ServiceAreas from './pages/ServiceAreas';
 import Blog from './pages/Blog';
 import PostTermiteSigns from './pages/PostTermiteSigns';
+import PostKidsPetsSafety from './pages/PostKidsPetsSafety';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
 import PostBedBugTreatment from './pages/PostBedBugTreatment';
+import PostRodentControl from './pages/PostRodentControl';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -58,11 +60,13 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />
             <Route path="/blog/signs-you-have-termites-naples" element={<PostTermiteSigns />} />
             <Route path="/blog/roach-prevention-summer-naples" element={<PostRoachControl />} />
             <Route path="/blog/mosquito-control-guide-naples" element={<PostMosquitoControl />} />
             <Route path="/blog/mosquito-season-naples-preparation" element={<PostMosquitoSeason />} />
             <Route path="/blog/bed-bug-treatment-naples" element={<PostBedBugTreatment />} />
+            <Route path="/blog/rodent-control-naples-fl-how-to-keep-rats-out-of-your-attic" element={<PostRodentControl />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
           </Routes>

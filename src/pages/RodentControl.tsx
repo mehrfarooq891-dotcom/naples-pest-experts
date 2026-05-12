@@ -49,11 +49,11 @@ export default function RodentControl() {
       {/* The Difference Section */}
       <section className="py-24 bg-white px-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
          <div className="order-2 md:order-1 relative">
-            <div className="aspect-square rounded-[3rem] bg-surface border border-gray-100 flex items-center justify-center relative overflow-hidden shadow-xl\">
+            <div className="aspect-square rounded-[3rem] bg-surface border border-gray-100 flex items-center justify-center relative overflow-hidden shadow-xl">
                <div className="text-center p-10 relative z-10">
                   <Home className="w-20 h-20 text-primary/20 mb-6 mx-auto" />
-                  <h3 className="text-text-main font-medium text-xl mb-4\">Whole-Home Exclusion</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-6\">"A mouse can fit through a hole the size of a dime. We find every dime-sized hole in your Naples residence and seal it with galvanized mesh."</p>
+                  <h3 className="text-text-main font-medium text-xl mb-4">Whole-Home Exclusion</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-6">"A mouse can fit through a hole the size of a dime. We find every dime-sized hole in your Naples residence and seal it with galvanized mesh."</p>
                </div>
             </div>
          </div>

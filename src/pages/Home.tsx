@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'how-much-does-pest-control-cost-naples-fl',
+              title: "How Much Does Pest Control Cost in Naples Florida in 2025?",
+              date: "May 13, 2026"
+            },
+            {
               id: 'is-pest-control-safe-kids-pets-naples',
               title: "Is Pest Control Safe for Kids & Pets? Naples Families Ask",
               date: "May 12, 2026"

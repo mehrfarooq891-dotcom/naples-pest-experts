@@ -12,6 +12,7 @@ import ServiceAreas from './pages/ServiceAreas';
 import Blog from './pages/Blog';
 import PostTermiteSigns from './pages/PostTermiteSigns';
 import PostKidsPetsSafety from './pages/PostKidsPetsSafety';
+import PostPestControlCost from './pages/PostPestControlCost';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
@@ -61,6 +62,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />
+            <Route path="/blog/how-much-does-pest-control-cost-naples-fl" element={<PostPestControlCost />} />
             <Route path="/blog/signs-you-have-termites-naples" element={<PostTermiteSigns />} />
             <Route path="/blog/roach-prevention-summer-naples" element={<PostRoachControl />} />
             <Route path="/blog/mosquito-control-guide-naples" element={<PostMosquitoControl />} />

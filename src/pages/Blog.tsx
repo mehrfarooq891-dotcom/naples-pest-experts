@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'how-much-does-pest-control-cost-naples-fl',
+      title: "How Much Does Pest Control Cost in Naples Florida in 2025?",
+      excerpt: "Get transparent 2025 pest control rates in Naples, FL. Compare general exterminator prices, termite systems, mosquito mitigation, and rodent exclusions today.",
+      date: "May 13, 2026",
+      readTime: "6 min read",
+      category: "Pricing Advice",
+      gradient: "linear-gradient(135deg, #1e3a5f, #0f1d30)"
+    },
+    {
       id: 'is-pest-control-safe-kids-pets-naples',
       title: "Is Pest Control Safe for Kids and Pets? Naples Families Ask",
       excerpt: "Concerned about child & pet safety during pest treatments? Learn about families' choices with child & pet safe pest control and eco friendly exterminator practices in Southwest Florida.",

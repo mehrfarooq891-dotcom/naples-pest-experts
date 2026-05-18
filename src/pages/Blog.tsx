@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'termite-season-naples-florida-what-homeowners-must-know',
+      title: "Termite Season in Southwest Florida — What Naples Homeowners Must Know",
+      excerpt: "Termite season in Naples typically runs March to May. Learn why Collier County is a hotspot for swarms and how to protect your structure before the damage starts.",
+      date: "May 18, 2026",
+      readTime: "6 min read",
+      category: "Termite Alert",
+      gradient: "linear-gradient(135deg, #4a2c2a, #1a0f0e)"
+    },
+    {
       id: 'how-much-does-pest-control-cost-naples-fl',
       title: "How Much Does Pest Control Cost in Naples Florida in 2025?",
       excerpt: "Get transparent 2025 pest control rates in Naples, FL. Compare general exterminator prices, termite systems, mosquito mitigation, and rodent exclusions today.",

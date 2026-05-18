@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'termite-season-naples-florida-what-homeowners-must-know',
+              title: "Termite Season in Southwest Florida — What Naples Homeowners Must Know",
+              date: "May 18, 2026"
+            },
+            {
               id: 'how-much-does-pest-control-cost-naples-fl',
               title: "How Much Does Pest Control Cost in Naples Florida in 2025?",
               date: "May 13, 2026"

@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'ants-in-your-naples-home-why-how-to-get-rid-of-them',
+      title: "Ants in Your Naples Home? Here is Why and How to Get Rid of Them",
+      excerpt: "Tired of persistent ants in your kitchen or painful stings in your yard? Compare ghost ants and fire ants, learn why they invade Naples homes, and find the ultimate solutions.",
+      date: "May 20, 2026",
+      readTime: "6 min read",
+      category: "Ant Control",
+      gradient: "linear-gradient(135deg, #124A2F, #061F13)"
+    },
+    {
       id: 'termite-season-naples-florida-what-homeowners-must-know',
       title: "Termite Season in Southwest Florida — What Naples Homeowners Must Know",
       excerpt: "Termite season in Naples typically runs March to May. Learn why Collier County is a hotspot for swarms and how to protect your structure before the damage starts.",

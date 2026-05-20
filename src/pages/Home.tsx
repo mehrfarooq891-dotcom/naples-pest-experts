@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'ants-in-your-naples-home-why-how-to-get-rid-of-them',
+              title: "Ants in Your Naples Home? Here is Why and How to Get Rid of Them",
+              date: "May 20, 2026"
+            },
+            {
               id: 'termite-season-naples-florida-what-homeowners-must-know',
               title: "Termite Season in Southwest Florida — What Naples Homeowners Must Know",
               date: "May 18, 2026"

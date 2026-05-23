@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'how-to-prepare-your-naples-home-for-pest-control-treatment',
+      title: "How to Prepare Your Naples Home for Pest Control Treatment",
+      excerpt: "Maximize treatment efficacy with our comprehensive pest treatment checklist. Learn what to do before your Naples pest control technician arrives.",
+      date: "May 23, 2026",
+      readTime: "5 min read",
+      category: "Preparation",
+      gradient: "linear-gradient(135deg, #1A365D, #0D1B2A)"
+    },
+    {
       id: 'ants-in-your-naples-home-why-how-to-get-rid-of-them',
       title: "Ants in Your Naples Home? Here is Why and How to Get Rid of Them",
       excerpt: "Tired of persistent ants in your kitchen or painful stings in your yard? Compare ghost ants and fire ants, learn why they invade Naples homes, and find the ultimate solutions.",

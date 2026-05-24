@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'mosquito-borne-diseases-in-collier-county-what-naples-residents-should-know',
+              title: "Mosquito Borne Diseases in Collier County — What Naples Residents Should Know",
+              date: "May 24, 2026"
+            },
+            {
               id: 'how-to-prepare-your-naples-home-for-pest-control-treatment',
               title: "How to Prepare Your Naples Home for Pest Control Treatment",
               date: "May 23, 2026"

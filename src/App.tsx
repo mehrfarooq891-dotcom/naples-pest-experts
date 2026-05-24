@@ -16,6 +16,7 @@ import PostPestControlCost from './pages/PostPestControlCost';
 import PostTermiteSeason from './pages/PostTermiteSeason';
 import PostAntControl from './pages/PostAntControl';
 import PostPestPreparation from './pages/PostPestPreparation';
+import PostMosquitoDiseases from './pages/PostMosquitoDiseases';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
@@ -65,6 +66,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />
+            <Route path="/blog/mosquito-borne-diseases-in-collier-county-what-naples-residents-should-know" element={<PostMosquitoDiseases />} />
             <Route path="/blog/how-to-prepare-your-naples-home-for-pest-control-treatment" element={<PostPestPreparation />} />
             <Route path="/blog/ants-in-your-naples-home-why-how-to-get-rid-of-them" element={<PostAntControl />} />
             <Route path="/blog/how-much-does-pest-control-cost-naples-fl" element={<PostPestControlCost />} />

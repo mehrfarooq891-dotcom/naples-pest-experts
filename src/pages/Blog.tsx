@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'mosquito-borne-diseases-in-collier-county-what-naples-residents-should-know',
+      title: "Mosquito Borne Diseases in Collier County — What Naples Residents Should Know",
+      excerpt: "Don't ignore the buzz. Mosquitoes in Collier County transmit serious health conditions. Learn about West Nile, Dengue, and how to safeguard your Naples household.",
+      date: "May 24, 2026",
+      readTime: "6 min read",
+      category: "Health Advisory",
+      gradient: "linear-gradient(135deg, #1e3a3a, #0d1e1e)"
+    },
+    {
       id: 'how-to-prepare-your-naples-home-for-pest-control-treatment',
       title: "How to Prepare Your Naples Home for Pest Control Treatment",
       excerpt: "Maximize treatment efficacy with our comprehensive pest treatment checklist. Learn what to do before your Naples pest control technician arrives.",

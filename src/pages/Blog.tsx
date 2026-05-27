@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'pest-control-for-marco-island-homeowners-what-makes-it-different',
+      title: "Pest Control for Marco Island Homeowners — What Makes It Different",
+      excerpt: "Waterfront living brings unique pest challenges. Discover how salt air, moisture levels, docks, canals, and island geography require specialized, ocean-safe treatments.",
+      date: "May 27, 2026",
+      readTime: "5 min read",
+      category: "Island Advisor",
+      gradient: "linear-gradient(135deg, #0B3C5D, #051C2C)"
+    },
+    {
       id: 'mosquito-borne-diseases-in-collier-county-what-naples-residents-should-know',
       title: "Mosquito Borne Diseases in Collier County — What Naples Residents Should Know",
       excerpt: "Don't ignore the buzz. Mosquitoes in Collier County transmit serious health conditions. Learn about West Nile, Dengue, and how to safeguard your Naples household.",

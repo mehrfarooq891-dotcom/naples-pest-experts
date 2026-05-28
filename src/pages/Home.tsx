@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples',
+              title: "What Are Palmetto Bugs and Why Are They Everywhere in Naples?",
+              date: "May 28, 2026"
+            },
+            {
               id: 'pest-control-for-marco-island-homeowners-what-makes-it-different',
               title: "Pest Control for Marco Island Homeowners — What Makes It Different",
               date: "May 27, 2026"

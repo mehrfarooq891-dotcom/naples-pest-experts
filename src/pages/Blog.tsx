@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples',
+      title: "What Are Palmetto Bugs and Why Are They Everywhere in Naples?",
+      excerpt: "New to Naples and startled by giant flying roaches? Learn the truth about palmetto bugs, why the local climate breeds them, and how to keep them out of your home.",
+      date: "May 28, 2026",
+      readTime: "5 min read",
+      category: "Roach Control",
+      gradient: "linear-gradient(135deg, #3B2314, #170E08)"
+    },
+    {
       id: 'pest-control-for-marco-island-homeowners-what-makes-it-different',
       title: "Pest Control for Marco Island Homeowners — What Makes It Different",
       excerpt: "Waterfront living brings unique pest challenges. Discover how salt air, moisture levels, docks, canals, and island geography require specialized, ocean-safe treatments.",

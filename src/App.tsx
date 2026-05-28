@@ -18,6 +18,7 @@ import PostAntControl from './pages/PostAntControl';
 import PostPestPreparation from './pages/PostPestPreparation';
 import PostMosquitoDiseases from './pages/PostMosquitoDiseases';
 import PostMarcoIsland from './pages/PostMarcoIsland';
+import PostPalmettoBugs from './pages/PostPalmettoBugs';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
@@ -67,6 +68,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />
+            <Route path="/blog/what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples" element={<PostPalmettoBugs />} />
             <Route path="/blog/pest-control-for-marco-island-homeowners-what-makes-it-different" element={<PostMarcoIsland />} />
             <Route path="/blog/mosquito-borne-diseases-in-collier-county-what-naples-residents-should-know" element={<PostMosquitoDiseases />} />
             <Route path="/blog/how-to-prepare-your-naples-home-for-pest-control-treatment" element={<PostPestPreparation />} />

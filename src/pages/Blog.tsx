@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'drywood-vs-subterranean-termites-in-naples-know-the-difference',
+      title: "Drywood vs Subterranean Termites in Naples — Know the Difference",
+      excerpt: "Faced with a termite infestation? Compare drywood and subterranean termites, learn how to identify warning signs, and find out which poses the greater danger to Southwest Florida homes.",
+      date: "May 29, 2026",
+      readTime: "6 min read",
+      category: "Termite Defense",
+      gradient: "linear-gradient(135deg, #4A2C2A, #1A0F0E)"
+    },
+    {
       id: 'what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples',
       title: "What Are Palmetto Bugs and Why Are They Everywhere in Naples?",
       excerpt: "New to Naples and startled by giant flying roaches? Learn the truth about palmetto bugs, why the local climate breeds them, and how to keep them out of your home.",

@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'drywood-vs-subterranean-termites-in-naples-know-the-difference',
+              title: "Drywood vs Subterranean Termites in Naples — Know the Difference",
+              date: "May 29, 2026"
+            },
+            {
               id: 'what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples',
               title: "What Are Palmetto Bugs and Why Are They Everywhere in Naples?",
               date: "May 28, 2026"

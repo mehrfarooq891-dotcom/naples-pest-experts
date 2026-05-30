@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'pest-control-for-bonita-springs-residents-complete-local-guide',
+              title: "Pest Control for Bonita Springs Residents — Complete Local Guide",
+              date: "May 30, 2026"
+            },
+            {
               id: 'drywood-vs-subterranean-termites-in-naples-know-the-difference',
               title: "Drywood vs Subterranean Termites in Naples — Know the Difference",
               date: "May 29, 2026"

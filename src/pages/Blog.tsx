@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'pest-control-for-bonita-springs-residents-complete-local-guide',
+      title: "Pest Control for Bonita Springs Residents — Complete Local Guide",
+      excerpt: "Living in Bonita Springs comes with incredible natural scenery, but also unique moisture and pest issues. Read our complete guide to termites, rodents, and seasonal pest management.",
+      date: "May 30, 2026",
+      readTime: "5 min read",
+      category: "Local Guide",
+      gradient: "linear-gradient(135deg, #0A4A3C, #031F19)"
+    },
+    {
       id: 'drywood-vs-subterranean-termites-in-naples-know-the-difference',
       title: "Drywood vs Subterranean Termites in Naples — Know the Difference",
       excerpt: "Faced with a termite infestation? Compare drywood and subterranean termites, learn how to identify warning signs, and find out which poses the greater danger to Southwest Florida homes.",

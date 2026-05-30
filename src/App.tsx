@@ -20,6 +20,7 @@ import PostPestPreparation from './pages/PostPestPreparation';
 import PostMosquitoDiseases from './pages/PostMosquitoDiseases';
 import PostMarcoIsland from './pages/PostMarcoIsland';
 import PostPalmettoBugs from './pages/PostPalmettoBugs';
+import PostBonitaSprings from './pages/PostBonitaSprings';
 import PostRoachControl from './pages/PostRoachControl';
 import PostMosquitoControl from './pages/PostMosquitoControl';
 import PostMosquitoSeason from './pages/PostMosquitoSeason';
@@ -69,6 +70,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />
+            <Route path="/blog/pest-control-for-bonita-springs-residents-complete-local-guide" element={<PostBonitaSprings />} />
             <Route path="/blog/drywood-vs-subterranean-termites-in-naples-know-the-difference" element={<PostTermiteComparison />} />
             <Route path="/blog/what-are-palmetto-bugs-and-why-are-they-everywhere-in-naples" element={<PostPalmettoBugs />} />
             <Route path="/blog/pest-control-for-marco-island-homeowners-what-makes-it-different" element={<PostMarcoIsland />} />

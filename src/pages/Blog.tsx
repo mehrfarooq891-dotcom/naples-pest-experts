@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'how-often-should-you-get-pest-control-in-naples-florida',
+      title: "How Often Should You Get Pest Control in Naples Florida?",
+      excerpt: "Is monthly general treatment overkill, or is quarterly service the absolute gold standard? Compare schedules, learn the role of annual termite checks, and find out the perfect plan for your home.",
+      date: "May 31, 2026",
+      readTime: "5 min read",
+      category: "Schedule Guide",
+      gradient: "linear-gradient(135deg, #1C2D42, #0B141F)"
+    },
+    {
       id: 'pest-control-for-bonita-springs-residents-complete-local-guide',
       title: "Pest Control for Bonita Springs Residents — Complete Local Guide",
       excerpt: "Living in Bonita Springs comes with incredible natural scenery, but also unique moisture and pest issues. Read our complete guide to termites, rodents, and seasonal pest management.",

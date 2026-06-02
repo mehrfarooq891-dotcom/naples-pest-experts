@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'signs-you-have-a-rodent-problem-in-your-naples-attic',
+              title: "Signs You Have a Rodent Problem in Your Naples Attic",
+              date: "June 2, 2026"
+            },
+            {
               id: 'how-often-should-you-get-pest-control-in-naples-florida',
               title: "How Often Should You Get Pest Control in Naples Florida?",
               date: "May 31, 2026"

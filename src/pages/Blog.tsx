@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'signs-you-have-a-rodent-problem-in-your-naples-attic',
+      title: "Signs You Have a Rodent Problem in Your Naples Attic",
+      excerpt: "Hearing scratching sounds? Discover the 8 warning signs of rodents in your attic, why Naples' climate makes them a prime breeding ground, and how customized exclusion keeps them out permanently.",
+      date: "June 2, 2026",
+      readTime: "5 min read",
+      category: "Rodent Control",
+      gradient: "linear-gradient(135deg, #1E252B, #0D1114)"
+    },
+    {
       id: 'how-often-should-you-get-pest-control-in-naples-florida',
       title: "How Often Should You Get Pest Control in Naples Florida?",
       excerpt: "Is monthly general treatment overkill, or is quarterly service the absolute gold standard? Compare schedules, learn the role of annual termite checks, and find out the perfect plan for your home.",

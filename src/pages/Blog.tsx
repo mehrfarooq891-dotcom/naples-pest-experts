@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'natural-pest-control-methods-that-actually-work-in-naples-florida',
+      title: "Natural Pest Control Methods That Actually Work in Naples Florida",
+      excerpt: "Is it possible to secure your Naples home using purely eco-friendly and organic pest control practices? Learn the 6 green methods that truly work, and when to call in professional botanical support.",
+      date: "June 3, 2026",
+      readTime: "5 min read",
+      category: "Green Defense",
+      gradient: "linear-gradient(135deg, #1B351E, #09170A)"
+    },
+    {
       id: 'signs-you-have-a-rodent-problem-in-your-naples-attic',
       title: "Signs You Have a Rodent Problem in Your Naples Attic",
       excerpt: "Hearing scratching sounds? Discover the 8 warning signs of rodents in your attic, why Naples' climate makes them a prime breeding ground, and how customized exclusion keeps them out permanently.",

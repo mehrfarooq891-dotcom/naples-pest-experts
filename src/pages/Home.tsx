@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'natural-pest-control-methods-that-actually-work-in-naples-florida',
+              title: "Natural Pest Control Methods That Actually Work in Naples Florida",
+              date: "June 3, 2026"
+            },
+            {
               id: 'signs-you-have-a-rodent-problem-in-your-naples-attic',
               title: "Signs You Have a Rodent Problem in Your Naples Attic",
               date: "June 2, 2026"

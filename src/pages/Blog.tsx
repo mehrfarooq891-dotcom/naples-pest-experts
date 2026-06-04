@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'pest-control-for-rental-properties-in-naples-landlord-guide',
+      title: "Pest Control for Rental Properties in Naples — Landlord Guide",
+      excerpt: "Who pays for pest control—landlord or tenant? Learn about Florida Statutes on pest defense liability, structural risk mitigation, and continuous preventative service plans for Collier assets.",
+      date: "June 4, 2026",
+      readTime: "6 min read",
+      category: "Compliance",
+      gradient: "linear-gradient(135deg, #1E293B, #0F172A)"
+    },
+    {
       id: 'natural-pest-control-methods-that-actually-work-in-naples-florida',
       title: "Natural Pest Control Methods That Actually Work in Naples Florida",
       excerpt: "Is it possible to secure your Naples home using purely eco-friendly and organic pest control practices? Learn the 6 green methods that truly work, and when to call in professional botanical support.",

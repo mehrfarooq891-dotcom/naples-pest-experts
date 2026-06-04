@@ -29,6 +29,7 @@ import PostBedBugTreatment from './pages/PostBedBugTreatment';
 import PostRodentControl from './pages/PostRodentControl';
 import PostRodentAttic from './pages/PostRodentAttic';
 import PostNaturalPestControl from './pages/PostNaturalPestControl';
+import PostRentalProperty from './pages/PostRentalProperty';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -73,6 +74,7 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/natural-pest-control-methods-that-actually-work-in-naples-florida" element={<PostNaturalPestControl />} />
+            <Route path="/blog/pest-control-for-rental-properties-in-naples-landlord-guide" element={<PostRentalProperty />} />
             <Route path="/blog/signs-you-have-a-rodent-problem-in-your-naples-attic" element={<PostRodentAttic />} />
             <Route path="/blog/how-often-should-you-get-pest-control-in-naples-florida" element={<PostPestFrequency />} />
             <Route path="/blog/is-pest-control-safe-kids-pets-naples" element={<PostKidsPetsSafety />} />

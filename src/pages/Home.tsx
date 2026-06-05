@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'what-happens-during-a-professional-pest-inspection-in-naples',
+              title: "What Happens During a Professional Pest Inspection in Naples?",
+              date: "June 5, 2026"
+            },
+            {
               id: 'pest-control-for-rental-properties-in-naples-landlord-guide',
               title: "Pest Control for Rental Properties in Naples — Landlord Guide",
               date: "June 4, 2026"

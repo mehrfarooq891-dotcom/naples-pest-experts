@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'what-happens-during-a-professional-pest-inspection-in-naples',
+      title: "What Happens During a Professional Pest Inspection in Naples?",
+      excerpt: "What do pest inspectors actually do? Take a detailed walk through our complete 4-step diagnostic review, what we hunt for in Southwest Florida, and how long a solid inspection takes.",
+      date: "June 5, 2026",
+      readTime: "5 min read",
+      category: "Inspection Guide",
+      gradient: "linear-gradient(135deg, #1A365D, #0B1C33)"
+    },
+    {
       id: 'pest-control-for-rental-properties-in-naples-landlord-guide',
       title: "Pest Control for Rental Properties in Naples — Landlord Guide",
       excerpt: "Who pays for pest control—landlord or tenant? Learn about Florida Statutes on pest defense liability, structural risk mitigation, and continuous preventative service plans for Collier assets.",

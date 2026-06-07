@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'how-naples-new-construction-homes-can-prevent-termites-from-day-one',
+      title: "How Naples New Construction Homes Can Prevent Termites from Day One",
+      excerpt: "Building a home in Naples, Florida? Learn how proactive pre-construction soil vapor pre-treatments, wood-borate shielding, and termite bait systems protect your asset from Day One.",
+      date: "June 7, 2026",
+      readTime: "6 min read",
+      category: "Termite Prevention",
+      gradient: "linear-gradient(135deg, #1C1917, #0C0A09)"
+    },
+    {
       id: 'what-happens-during-a-professional-pest-inspection-in-naples',
       title: "What Happens During a Professional Pest Inspection in Naples?",
       excerpt: "What do pest inspectors actually do? Take a detailed walk through our complete 4-step diagnostic review, what we hunt for in Southwest Florida, and how long a solid inspection takes.",

@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'golden-gate-estates-pest-control-dealing-with-rural-florida-pests',
+      title: "Golden Gate Estates Pest Control — Dealing With Rural Florida Pests",
+      excerpt: "Living on acreage in the Estates means sharing space with dense bug populations, roof rats, and Everglade wildlife. Discover specialized rural exclusion and pest defense plans.",
+      date: "June 8, 2026",
+      readTime: "6 min read",
+      category: "Rural Defense",
+      gradient: "linear-gradient(135deg, #064E3B, #022C22)"
+    },
+    {
       id: 'how-naples-new-construction-homes-can-prevent-termites-from-day-one',
       title: "How Naples New Construction Homes Can Prevent Termites from Day One",
       excerpt: "Building a home in Naples, Florida? Learn how proactive pre-construction soil vapor pre-treatments, wood-borate shielding, and termite bait systems protect your asset from Day One.",

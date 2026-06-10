@@ -33,6 +33,7 @@ import PostRentalProperty from './pages/PostRentalProperty';
 import PostPestInspection from './pages/PostPestInspection';
 import PostNewConstructionTermites from './pages/PostNewConstructionTermites';
 import PostGoldenGateEstates from './pages/PostGoldenGateEstates';
+import PostBedBugsHotels from './pages/PostBedBugsHotels';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -76,6 +77,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself" element={<PostBedBugsHotels />} />
             <Route path="/blog/golden-gate-estates-pest-control-dealing-with-rural-florida-pests" element={<PostGoldenGateEstates />} />
             <Route path="/blog/how-naples-new-construction-homes-can-prevent-termites-from-day-one" element={<PostNewConstructionTermites />} />
             <Route path="/blog/what-happens-during-a-professional-pest-inspection-in-naples" element={<PostPestInspection />} />

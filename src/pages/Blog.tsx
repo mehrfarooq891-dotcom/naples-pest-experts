@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself',
+      title: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself",
+      excerpt: "High guest turnover means elevated bed bug risk. Learn the quick 5-minute checkout check, top visual signs of active infestation, and how to protect your suitcases from returning home with hitchhikers.",
+      date: "June 10, 2026",
+      readTime: "5 min read",
+      category: "Travel Guide",
+      gradient: "linear-gradient(135deg, #7F1D1D, #450A0A)"
+    },
+    {
       id: 'golden-gate-estates-pest-control-dealing-with-rural-florida-pests',
       title: "Golden Gate Estates Pest Control — Dealing With Rural Florida Pests",
       excerpt: "Living on acreage in the Estates means sharing space with dense bug populations, roof rats, and Everglade wildlife. Discover specialized rural exclusion and pest defense plans.",

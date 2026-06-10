@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself',
+              title: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself",
+              date: "June 10, 2026"
+            },
+            {
               id: 'golden-gate-estates-pest-control-dealing-with-rural-florida-pests',
               title: "Golden Gate Estates Pest Control — Dealing With Rural Florida Pests",
               date: "June 8, 2026"

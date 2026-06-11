@@ -2,5 +2,8 @@
   "name": "Naples Pest Experts",
   "description": "Naples' trusted pest control specialists since 2011, specializing in termite, roach, and mosquito control with 24/7 emergency services.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "commitMessage": "feat: Add blog articles for Bed Bugs, Golden Gate Estates, New Construction Termites, and DIY Pest Fails with SEO metadata and dynamic routes setup"
 }

@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'why-diy-pest-control-fails-in-naples-florida-and-what-to-do-instead',
+              title: "Why DIY Pest Control Fails in Naples Florida — And What to Do Instead",
+              date: "June 11, 2026"
+            },
+            {
               id: 'bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself',
               title: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself",
               date: "June 10, 2026"

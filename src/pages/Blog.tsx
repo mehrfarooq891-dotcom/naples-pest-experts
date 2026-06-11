@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'why-diy-pest-control-fails-in-naples-florida-and-what-to-do-instead',
+      title: "Why DIY Pest Control Fails in Naples Florida — And What to Do Instead",
+      excerpt: "Struggling with store bought bug sprays and traps? Discover 5 reasons why DIY pest control systematically fails in Southwest Florida and when a professional is absolutely required.",
+      date: "June 11, 2026",
+      readTime: "5 min read",
+      category: "DIY vs Pro",
+      gradient: "linear-gradient(135deg, #1E293B, #0F172A)"
+    },
+    {
       id: 'bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself',
       title: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself",
       excerpt: "High guest turnover means elevated bed bug risk. Learn the quick 5-minute checkout check, top visual signs of active infestation, and how to protect your suitcases from returning home with hitchhikers.",

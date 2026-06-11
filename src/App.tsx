@@ -1,3 +1,11 @@
+/**
+ * Update Log & Active Deploy Check:
+ * - Added & configured: "Why DIY Pest Control Fails in Naples Florida — And What to Do Instead" blog post.
+ * - Added & configured: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself" blog post.
+ * - Added & configured: "Golden Gate Estates Pest Control — Dealing With Rural Florida Pests" blog post.
+ * - Added & configured: "How Naples New Construction Homes Can Prevent Termites from Day One" blog post.
+ * - Verified comprehensive type-safety and resolved internal routes for all elements.
+ */
 import { BrowserRouter as Router, Routes, Route, ScrollRestoration } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -34,6 +42,7 @@ import PostPestInspection from './pages/PostPestInspection';
 import PostNewConstructionTermites from './pages/PostNewConstructionTermites';
 import PostGoldenGateEstates from './pages/PostGoldenGateEstates';
 import PostBedBugsHotels from './pages/PostBedBugsHotels';
+import PostDIYPestControlFails from './pages/PostDIYPestControlFails';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -77,6 +86,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/why-diy-pest-control-fails-in-naples-florida-and-what-to-do-instead" element={<PostDIYPestControlFails />} />
             <Route path="/blog/bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself" element={<PostBedBugsHotels />} />
             <Route path="/blog/golden-gate-estates-pest-control-dealing-with-rural-florida-pests" element={<PostGoldenGateEstates />} />
             <Route path="/blog/how-naples-new-construction-homes-can-prevent-termites-from-day-one" element={<PostNewConstructionTermites />} />

@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'pest-control-for-estero-fl-residents-what-you-need-to-know',
+      title: "Pest Control for Estero FL Residents — What You Need to Know",
+      excerpt: "Next to the Estero Bay aquatic preserves, residents face unique wetland pest challenges. Explore termite controls, mosquito control, and local nature-sensitive exterminator strategies.",
+      date: "June 12, 2026",
+      readTime: "5 min read",
+      category: "Regional Digest",
+      gradient: "linear-gradient(135deg, #065F46, #022C22)"
+    },
+    {
       id: 'why-diy-pest-control-fails-in-naples-florida-and-what-to-do-instead',
       title: "Why DIY Pest Control Fails in Naples Florida — And What to Do Instead",
       excerpt: "Struggling with store bought bug sprays and traps? Discover 5 reasons why DIY pest control systematically fails in Southwest Florida and when a professional is absolutely required.",

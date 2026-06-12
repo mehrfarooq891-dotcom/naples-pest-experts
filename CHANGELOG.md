@@ -2,6 +2,19 @@
 
 All changes made to the Naples Pest Experts codebase are tracked below.
 
+## [1.3.0] - 2026-06-12
+### Added
+- **"Pest Control for Estero FL Residents" Blog Post**: Comprehensive regional guide detailing sub-tropical wetland challenges next to Estero Bay aquatic preserves, residential structural pest vulnerabilities, and nature-sensitive treatment policies.
+  - File: `/src/pages/PostEstero.tsx`
+  - Target URL: `/blog/pest-control-for-estero-fl-residents-what-you-need-to-know`
+  - Highly optimized keywords integration: `pest control estero fl`, `exterminator estero florida`, `termite control estero`, and `mosquito control estero fl`.
+
+### Configured
+- Registered `PostEstero` page with dynamic browser routes in `/src/App.tsx`.
+- Integrated Estero post preview block inside the main blog directory on `/src/pages/Blog.tsx`.
+- Added the Estero list element inside the home page intelligence gallery in `/src/pages/Home.tsx`.
+- Updated version tag to `1.3.0` and set active `commitMessage` values across `/package.json` and `/metadata.json`.
+
 ## [1.2.0] - 2026-06-11
 ### Added
 - **"Why DIY Pest Control Fails in Naples Florida" Blog Post**: Created a comprehensive guide explaining why consumer products break down in Southwest Florida's humid climate.

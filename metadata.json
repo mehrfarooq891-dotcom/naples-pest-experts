@@ -5,5 +5,5 @@
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
   ],
-  "commitMessage": "feat: Add blog articles for Bed Bugs, Golden Gate Estates, New Construction Termites, and DIY Pest Fails with SEO metadata and dynamic routes setup"
+  "commitMessage": "feat: Add Estero regional guide blog with keywords integration, dynamic routes, and SEO metadata setup"
 }

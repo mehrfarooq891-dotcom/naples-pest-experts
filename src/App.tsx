@@ -1,5 +1,6 @@
 /**
  * Update Log & Active Deploy Check:
+ * - Added & configured: "Pest Control for Estero FL Residents — What You Need to Know" blog post.
  * - Added & configured: "Why DIY Pest Control Fails in Naples Florida — And What to Do Instead" blog post.
  * - Added & configured: "Bed Bugs in Naples Hotels and Vacation Rentals — Protect Yourself" blog post.
  * - Added & configured: "Golden Gate Estates Pest Control — Dealing With Rural Florida Pests" blog post.
@@ -43,6 +44,7 @@ import PostNewConstructionTermites from './pages/PostNewConstructionTermites';
 import PostGoldenGateEstates from './pages/PostGoldenGateEstates';
 import PostBedBugsHotels from './pages/PostBedBugsHotels';
 import PostDIYPestControlFails from './pages/PostDIYPestControlFails';
+import PostEstero from './pages/PostEstero';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Terms from './pages/Terms';
@@ -86,6 +88,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/pest-control-for-estero-fl-residents-what-you-need-to-know" element={<PostEstero />} />
             <Route path="/blog/why-diy-pest-control-fails-in-naples-florida-and-what-to-do-instead" element={<PostDIYPestControlFails />} />
             <Route path="/blog/bed-bugs-in-naples-hotels-and-vacation-rentals-protect-yourself" element={<PostBedBugsHotels />} />
             <Route path="/blog/golden-gate-estates-pest-control-dealing-with-rural-florida-pests" element={<PostGoldenGateEstates />} />

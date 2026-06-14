@@ -516,6 +516,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {[
             {
+              id: 'how-rainy-season-affects-pest-activity-in-naples-florida',
+              title: "How Rainy Season Affects Pest Activity in Naples Florida",
+              date: "June 13, 2026"
+            },
+            {
               id: 'pest-control-for-estero-fl-residents-what-you-need-to-know',
               title: "Pest Control for Estero FL Residents — What You Need to Know",
               date: "June 12, 2026"

@@ -5,6 +5,15 @@ import SEO from '../components/SEO';
 export default function Blog() {
   const posts = [
     {
+      id: 'how-rainy-season-affects-pest-activity-in-naples-florida',
+      title: "How Rainy Season Affects Pest Activity in Naples Florida",
+      excerpt: "From May through October, tropical rain and moisture trigger massive indoor bug migrations. Understand how rainy season pests naples florida operate and how to secure waterproof shield defenses.",
+      date: "June 13, 2026",
+      readTime: "5 min read",
+      category: "Seasonal Briefing",
+      gradient: "linear-gradient(135deg, #0284C7, #075985)"
+    },
+    {
       id: 'pest-control-for-estero-fl-residents-what-you-need-to-know',
       title: "Pest Control for Estero FL Residents — What You Need to Know",
       excerpt: "Next to the Estero Bay aquatic preserves, residents face unique wetland pest challenges. Explore termite controls, mosquito control, and local nature-sensitive exterminator strategies.",
